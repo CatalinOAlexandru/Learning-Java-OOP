@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=TestAccount
-dependency1.to=Account
+dependency1.from=TestACC1
+dependency1.to=ACC1
 dependency1.type=UsesDependency
-dependency2.from=TestACC1
-dependency2.to=ACC1
+dependency2.from=TestAccount
+dependency2.to=Account
 dependency2.type=UsesDependency
 editor.fx.0.height=0
 editor.fx.0.width=0
