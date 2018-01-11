@@ -16,7 +16,6 @@ public class ACC1
     {
         balance = balance + amount;
     }
-    
     public void close()
     {
         balance = 0;
