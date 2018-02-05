@@ -9,7 +9,7 @@ public class middle
     // Program starting point
     public static void main (String[] cctv)
     {
-        if(cctv.length < 3 || cctv.length > 3)
+        if(cctv.length == 3)
         {
             System.out.println("Error. Please insert exactly 3 numbers.\n");
             System.exit(0);
