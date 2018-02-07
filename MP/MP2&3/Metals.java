@@ -4,12 +4,14 @@ Mini Project
 
 import java.util.*; // it imports the entire java util library and makes it available to use
 
-public class Metals
+public class Metals extends Market
 {
     protected String MetalName;
     protected double MetalValue;
     public Metals()
     {
+        MetalName = "";
+        MetalValue = 0.0;
     }   
     public Metals(String name, double value)
     {

@@ -4,12 +4,14 @@ Mini Project
 
 import java.util.*; // it imports the entire java util library and makes it available to use
 
-public class Technology
+public class Technology extends Market
 {
     protected String TechName;
     protected double TechValue;
     public Technology()
     {
+        TechName  = "";
+        TechValue = 0.0; 
     }   
     public Technology(String name, double value)
     {
