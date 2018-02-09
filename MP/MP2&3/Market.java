@@ -1,3 +1,4 @@
+import java.util.*; //Allows me to get input from the user
 
 public class Market
 {
@@ -7,13 +8,13 @@ public class Market
     protected double M24High;
     protected double M24Low;
     
-    public Market(double value, double HighestValue, double Volume, double M24High, double M24Low)
+    public Market(double inValue, double inHighestValue, double inVolume, double inM24High, double inM24Low)
     {
-        Value = value;
-        HighestValue = HighestValue;
-        Volume = Volume;
-        M24High = M24High;
-        M24Low = M24Low;
+        Value = inValue;
+        HighestValue = inHighestValue;
+        Volume = inVolume;
+        M24High = inM24High;
+        M24Low = inM24Low;
     }
     public double getValue()
     {
@@ -35,4 +36,54 @@ public class Market
     {
         return M24Low;
     }
+    
+    public double buy(double Amount, double capital, String marketName){ //under construction
+        Double buyMarket = Amount * getValue();
+        String ans;
+        ans = InputString("Are you sure you want to buy " +Amount+ " units of " +marketName+ " for " +buyMarket+" USD? Write YES to continue.");
+        if(ans.equalsIgnoreCase("yes"))
+        {
+            System.out.print("We are processing a transaction worth: " + buyMarket);
+            capital = capital - buyMarket;
+            if(capital < 0)
+            {
+                capital = capital + buyMarket;
+                System.out.println("\nSorry, but you dont have enoght money to buy " + Amount + " coin(s).");
+            }
+            else
+            {
+                System.out.println("You now own " + Amount + " which are worth " + buyMarket + " USD");
+            }
+        }
+        else
+        {
+            System.out.println("We cancelled your transaction. You were not charged.");
+        }
+        return capital;
+    }
+    
+    public double sell(double Amount, double capital, String marketName){ //under construction
+        Double sellMarket = Amount * getValue();
+        String ans;
+        ans = InputString("Are you sure you want to sell " +Amount+ " units of " +marketName+ " for " +sellMarket+" USD? Write YES to continue.");
+        if(ans.equalsIgnoreCase("yes"))
+        {
+            System.out.print("We are processing a transaction worth: " + sellMarket);
+            capital = capital + sellMarket;
+           
+            System.out.println("\nYou now own " + Amount + " which are worth " + sellMarket + " USD");
+        }
+        else
+        {
+            System.out.println("We cancelled your transaction. You were not charged.");
+        }
+        return capital;
+    }
+    
+    public static String InputString(String s)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(s);
+        return scanner.nextLine();
+    } // END Input String
 }

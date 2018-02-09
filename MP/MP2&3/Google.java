@@ -2,10 +2,10 @@
 Mini Project
 */
 
-public class Google extends Technology
+public class Google //extends Technology
 {
-   public Google(String name, double value)
+   public Google()
     {
-        super(name, value);
+        super();
     }   
 }

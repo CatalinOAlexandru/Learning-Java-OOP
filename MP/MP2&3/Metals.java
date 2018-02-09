@@ -6,18 +6,11 @@ import java.util.*; // it imports the entire java util library and makes it avai
 
 public class Metals extends Market
 {
-    protected String MetalName;
-    protected double MetalValue;
-    public Metals()
+    public Metals(double value, double HighestValue, double Volume, double M24High, double M24Low)
     {
-        MetalName = "";
-        MetalValue = 0.0;
+        super(value, HighestValue, Volume, M24High, M24Low);
     }   
-    public Metals(String name, double value)
-    {
-        MetalName = name;
-        MetalValue = value;
-    }   
+    /*
     public String getMetalName()
     {
         return MetalName;
@@ -29,5 +22,5 @@ public class Metals extends Market
     public void setMetalsVAlue(double value)
     {
         MetalValue = value;
-    }
+    }*/
 }

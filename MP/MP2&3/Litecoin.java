@@ -4,8 +4,8 @@ Mini Project
 
 public class Litecoin extends Crypto
 {
-    public Litecoin(String name, double value)
+    public Litecoin()
     {
-        super(name, value);
+        super(144.75, 330.24, 960754000, 180.22, 130.02);
     }   
 }

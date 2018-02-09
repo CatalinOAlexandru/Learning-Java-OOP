@@ -6,18 +6,12 @@ import java.util.*; // it imports the entire java util library and makes it avai
 
 public class Technology extends Market
 {
-    protected String TechName;
-    protected double TechValue;
-    public Technology()
+
+    public Technology(double value, double HighestValue, double Volume, double M24High, double M24Low)
     {
-        TechName  = "";
-        TechValue = 0.0; 
+        super(value, HighestValue, Volume, M24High, M24Low);
     }   
-    public Technology(String name, double value)
-    {
-        TechName = name;
-        TechValue = value;
-    }   
+    /*
     public String getTechName()
     {
         return TechName;
@@ -29,5 +23,5 @@ public class Technology extends Market
     public void setTechValue(double value)
     {
         TechValue = value;
-    }
+    }*/
 }

@@ -4,8 +4,8 @@ Mini Project
 
 public class Ethereum extends Crypto
 {
-    public Ethereum(String name, double value)
+    public Ethereum()
     {
-        super(name, value);
+        super(810.03, 1337.22, 4165120000.33, 880.34, 760.67);
     }   
 }

@@ -2,10 +2,10 @@
 Mini Project
 */
 
-public class Gold extends Metals
+public class Gold //extends Metals
 {
-   public Gold(String name, double value)
+   public Gold()
     {
-        super(name, value);
+        super();
     }   
 }

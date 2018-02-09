@@ -1,12 +1,12 @@
 import java.util.*; //Allows me to get input from the user
 public class Simulator
 {
-    public static void main(String[] CCTV)
+    public static void main(String[] START)
     {
         Print("\nWelcome to the Stock Market");
         
         String name = InputString("What is your name?");
-        double money = InputDouble("How much money do you have?");
+        double money = InputDouble("How much money (USD) do you have?");
         Portofolio user1 = new Portofolio(name, money);
         Print("Your account is fully setup!");
         
@@ -23,7 +23,7 @@ public class Simulator
                 Crypto(user1);
                 System.exit(0);
             }
-            else if(ans.equalsIgnoreCase("technology"))
+            else if(ans.equalsIgnoreCase("technology") || ans.equalsIgnoreCase("tech"))
             {
                 Print("You have selected the Technology Market.\n");
                 rightInput=true; //right input
@@ -48,23 +48,26 @@ public class Simulator
     public static void Crypto(Portofolio user1)
     {
        String ans;
-       Crypto Coin1;
+       Market Coin1;
        while(true)
        {
            ans = InputString("Which Crypto-Currency do you want to invest in? Bitcoin | Litecoin | Ethereum");
-           if(ans.equalsIgnoreCase("bitcoin"))
+           if(ans.equalsIgnoreCase("bitcoin") || ans.equalsIgnoreCase("btc"))
            {
                Coin1 = new Bitcoin();
+               ans = "Bitcoin";
                break;
            }
-           else if(ans.equalsIgnoreCase("litecoin"))
+           else if(ans.equalsIgnoreCase("litecoin") || ans.equalsIgnoreCase("ltc"))
            {
-                Coin1 = new Bitcoin(); // needs change
+                Coin1 = new Litecoin(); 
+                ans = "Litecoin";
                 break;
            }
-           else if(ans.equalsIgnoreCase("bitcoin"))
+           else if(ans.equalsIgnoreCase("ethereum") || ans.equalsIgnoreCase("eth"))
            {
-                Coin1 = new Bitcoin(); // needs change
+                Coin1 = new Ethereum();
+                ans = "Ethereum";
                 break;
            }
            else  
@@ -75,13 +78,13 @@ public class Simulator
        }
                
        Print("Statistics:");
-       System.out.println("Current Value: "+Coin1.getCryptoValue());
-       System.out.println("Highest Value recorded: "+Coin1.getCryptoHighestValue());
-       System.out.println("Highest Value in the last 24 hours: "+Coin1.getCrypto24High());
-       System.out.println("Lowest Value in the last 24 hours: "+Coin1.getCrypto24Low());
+       System.out.println("Current Value: "+Coin1.getValue());
+       System.out.println("Highest Value recorded: "+Coin1.getHighestValue());
+       System.out.println("Highest Value in the last 24 hours: "+Coin1.getM24High());
+       System.out.println("Lowest Value in the last 24 hours: "+Coin1.getM24Low());
        
-       int coinsToBuy = InputInt("\nHow many Bitcoins do you want to buy?");
-       Double newCapital = Coin1.buy(coinsToBuy, user1.getUserCapital());
+       int coinsToBuy = InputInt("\nHow many "+ans+" do you want to buy?");
+       Double newCapital = Coin1.buy(coinsToBuy, user1.getUserCapital(), ans);
        user1.setBitcoin(coinsToBuy);
        
     }

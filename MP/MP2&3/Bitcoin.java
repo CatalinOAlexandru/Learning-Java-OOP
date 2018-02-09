@@ -1,7 +1,6 @@
 /* Author - Catalin Alexandru
 Mini Project
 */
-import java.util.Random;
 
 public class Bitcoin extends Crypto
 {
@@ -13,10 +12,9 @@ public class Bitcoin extends Crypto
 */  
     public Bitcoin()
     {
-        super(8009.22, 20105.76, 5000000.54, 9045.01, 9622.32);
-        //super(BitcoinValue, BitcoinHighestValue, BitcoinVolume, Bitcoin24High, Bitcoin24Low);
+        super(8009.22, 20105.76, 10047800000.2, 9045.01, 9622.32);
     }
-    
+    /*
     public double buy(double Amount, double capital){ //under construction
         Double buyBitcoin = Amount * getValue();
         System.out.print("We are processing a transaction worth: " + buyBitcoin);
@@ -48,5 +46,5 @@ public class Bitcoin extends Crypto
         }
             return capital;
     }
-    
+    */
 }

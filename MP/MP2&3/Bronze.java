@@ -2,10 +2,10 @@
 Mini Project
 */
 
-public class Bronze extends Metals
+public class Bronze //extends Metals
 {
-   public Bronze(String name, double value)
+   public Bronze()
     {
-        super(name, value);
+        super();
     }   
 }

@@ -2,10 +2,10 @@
 Mini Project
 */
 
-public class Apple extends Technology
+public class Apple //extends Technology
 {
-   public Apple(String name, double value)
+   public Apple()
     {
-        super(name, value);
+        super();
     }   
 }

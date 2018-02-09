@@ -2,10 +2,10 @@
 Mini Project
 */
 
-public class Samsung extends Technology
+public class Samsung //extends Technology
 {
-   public Samsung(String name, double value)
+   public Samsung()
     {
-        super(name, value);
+        super();
     }   
 }
