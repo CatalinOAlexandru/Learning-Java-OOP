@@ -9,6 +9,12 @@ public class Portofolio
     protected double Bitcoin;
     protected double Litecoin;
     protected double Ethereum;
+    protected double Apple;
+    protected double Samsung;
+    protected double Google;
+    protected double Porsche;
+    protected double Volkswagen;
+    protected double Audi;
 
     public Portofolio(String name, double capital)
     {
@@ -17,6 +23,13 @@ public class Portofolio
        Bitcoin = 0.0;
        Litecoin= 0.0;
        Ethereum = 0.0;
+       Apple = 0.0;
+       Samsung = 0.0;
+       Google = 0.0;
+       Porsche = 0.0;
+       Volkswagen = 0.0;
+       Audi = 0.0;
+       
     }
     public void setUserName(String name)
     {
@@ -38,6 +51,30 @@ public class Portofolio
     {
         Bitcoin = amount;
     }
+    public void setApple(double amount)
+    {
+        Apple = amount;
+    }
+    public void setSamsung(double amount)
+    {
+        Samsung = amount;
+    }
+    public void setGoogle(double amount)
+    {
+        Google = amount;
+    }
+    public void setPorsche(double amount)
+    {
+        Porsche = amount;
+    }
+    public void setWolkswagen(double amount)
+    {
+        Volkswagen = amount;
+    }
+    public void setAudi(double amount)
+    {
+        Audi = amount;
+    }
     public String getUserName()
     {
         return userName;
@@ -57,5 +94,29 @@ public class Portofolio
     public double getEthereum()
     {
         return Ethereum;
+    }
+    public double getApple()
+    {
+        return Apple;
+    }
+    public double getSamsung()
+    {
+        return Samsung;
+    }
+    public double getGoogle()
+    {
+        return Google;
+    }
+    public double getPorsche()
+    {
+        return Porsche;
+    }
+    public double getVolkswagen()
+    {
+        return Volkswagen;
+    }
+    public double getAudi()
+    {
+        return Audi;
     }
 }

@@ -52,12 +52,13 @@ public class Market
             }
             else
             {
-                System.out.println("You now own " + Amount + " which are worth " + buyMarket + " USD");
+                System.out.println("\n\nYou now own " + Amount + " which are worth " + buyMarket + " USD");
+                System.out.println("Your new capital is: " + capital);
             }
         }
         else
         {
-            System.out.println("We cancelled your transaction. You were not charged.");
+            System.out.println("\nWe cancelled your transaction. You were not charged.");
         }
         return capital;
     }
@@ -71,11 +72,12 @@ public class Market
             System.out.print("We are processing a transaction worth: " + sellMarket);
             capital = capital + sellMarket;
            
-            System.out.println("\nYou now own " + Amount + " which are worth " + sellMarket + " USD");
+            System.out.println("\n\nYou now own " + Amount + " which are worth " + sellMarket + " USD");
+            System.out.println("Your new capital is: " + capital);
         }
         else
         {
-            System.out.println("We cancelled your transaction. You were not charged.");
+            System.out.println("\nWe cancelled your transaction. You were not charged.");
         }
         return capital;
     }

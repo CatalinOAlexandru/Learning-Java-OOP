@@ -10,7 +10,7 @@ public class Simulator
         Portofolio user1 = new Portofolio(name, money);
         Print("Your account is fully setup!");
         
-        Print("\nThese are the Markets you can invest: Crypto | Technology | Metals");
+        Print("\nThese are the Markets you can invest: Crypto | Technology | Cars");
         
         boolean rightInput = false; // boolean created so we can see whether the user has entered the right input 
         while(rightInput==false)    //While statement has been added in case that the users enter the wrong input.
@@ -27,14 +27,14 @@ public class Simulator
             {
                 Print("You have selected the Technology Market.\n");
                 rightInput=true; //right input
-                Technology();
+                Technology(user1);
                 System.exit(0);
             }
-            else if(ans.equalsIgnoreCase("metals"))
+            else if(ans.equalsIgnoreCase("cars"))
             {
-                System.out.println("You have selected the Metals Market.\n");
+                System.out.println("You have selected the Car Manufacturers Market.\n");
                 rightInput=true; //right input
-                Metals();
+                Cars(user1);
                 System.exit(0);
             }
             else
@@ -51,7 +51,7 @@ public class Simulator
        Market Coin1;
        while(true)
        {
-           ans = InputString("Which Crypto-Currency do you want to invest in? Bitcoin | Litecoin | Ethereum");
+           ans = InputString("In which Crypto-Currency do you want to invest in? Bitcoin | Litecoin | Ethereum");
            if(ans.equalsIgnoreCase("bitcoin") || ans.equalsIgnoreCase("btc"))
            {
                Coin1 = new Bitcoin();
@@ -83,17 +83,118 @@ public class Simulator
        System.out.println("Highest Value in the last 24 hours: "+Coin1.getM24High());
        System.out.println("Lowest Value in the last 24 hours: "+Coin1.getM24Low());
        
-       int coinsToBuy = InputInt("\nHow many "+ans+" do you want to buy?");
-       Double newCapital = Coin1.buy(coinsToBuy, user1.getUserCapital(), ans);
-       user1.setBitcoin(coinsToBuy);
+       int SharesToBuy = InputInt("\nHow many "+ans+" coins do you want to buy?");
+       Double newCapital = Coin1.buy(SharesToBuy, user1.getUserCapital(), ans);
+       if(ans.equalsIgnoreCase("Bitcoin"))
+            user1.setBitcoin(SharesToBuy);
+       else if(ans.equalsIgnoreCase("litecoin"))
+            user1.setLitecoin(SharesToBuy);
+       else if(ans.equalsIgnoreCase("Ethereum"))
+            user1.setEthereum(SharesToBuy);
+       else
+            System.out.println("ERROR 1: Your order was not registered");
        
     }
     
-    public static void Technology()
-    {Print("This market is not ready to be used.");}
+    public static void Cars(Portofolio user1)
+    {
+       String ans;
+       Market car1;
+       while(true)
+       {
+           ans = InputString("In which car manufacturers do you want to invest in? Porsche | Volkswagen | Audi");
+           if(ans.equalsIgnoreCase("Porsche"))
+           {
+               car1 = new Porsche();
+               ans = "Porsche";
+               break;
+           }
+           else if(ans.equalsIgnoreCase("Volkswagen") || ans.equalsIgnoreCase("vw"))
+           {
+                car1 = new Volkswagen(); 
+                ans = "Volkswagen";
+                break;
+           }
+           else if(ans.equalsIgnoreCase("Audi"))
+           {
+                car1 = new Audi();
+                ans = "Audi";
+                break;
+           }
+           else  
+           {
+                Print("Sorry, we dont support this car manufacturer at this moment. Please try again.");
+                  
+           }
+       }
+               
+       Print("Statistics:");
+       System.out.println("Current Value: "+car1.getValue());
+       System.out.println("Highest Value recorded: "+car1.getHighestValue());
+       System.out.println("Highest Value in the last 24 hours: "+car1.getM24High());
+       System.out.println("Lowest Value in the last 24 hours: "+car1.getM24Low());
+       
+       int SharesToBuy = InputInt("\nHow many "+ans+" shares do you want to buy?");
+       Double newCapital = car1.buy(SharesToBuy, user1.getUserCapital(), ans);
+       if(ans.equalsIgnoreCase("Porsche"))
+            user1.setPorsche(SharesToBuy);
+       else if(ans.equalsIgnoreCase("Volkswagen"))
+            user1.setWolkswagen(SharesToBuy);
+       else if(ans.equalsIgnoreCase("Audi"))
+            user1.setAudi(SharesToBuy);
+       else
+            System.out.println("ERROR 1: Your order was not registered");
+    }
     
-    public static void Metals()
-    {Print("This market is not ready to be used.");}
+    public static void Technology(Portofolio user1)
+    {
+       String ans;
+       Market tech1;
+       while(true)
+       {
+           ans = InputString("In which car manufacturers do you want to invest in? Apple | Samsung | Google");
+           if(ans.equalsIgnoreCase("Apple"))
+           {
+               tech1 = new Apple();
+               ans = "Apple";
+               break;
+           }
+           else if(ans.equalsIgnoreCase("Samsung"))
+           {
+                tech1 = new Samsung(); 
+                ans = "Samsung";
+                break;
+           }
+           else if(ans.equalsIgnoreCase("Google"))
+           {
+                tech1 = new Google();
+                ans = "Google";
+                break;
+           }
+           else  
+           {
+                Print("Sorry, we dont support this Technology company at this moment. Please try again.");
+                  
+           }
+       }
+               
+       Print("Statistics:");
+       System.out.println("Current Value: "+tech1.getValue());
+       System.out.println("Highest Value recorded: "+tech1.getHighestValue());
+       System.out.println("Highest Value in the last 24 hours: "+tech1.getM24High());
+       System.out.println("Lowest Value in the last 24 hours: "+tech1.getM24Low());
+       
+       int SharesToBuy = InputInt("\nHow many "+ans+" shares do you want to buy?");
+       Double newCapital = tech1.buy(SharesToBuy, user1.getUserCapital(), ans);
+       if(ans.equalsIgnoreCase("Apple"))
+            user1.setApple(SharesToBuy);
+       else if(ans.equalsIgnoreCase("Samsung"))
+            user1.setSamsung(SharesToBuy);
+       else if(ans.equalsIgnoreCase("Google"))
+            user1.setGoogle(SharesToBuy);
+       else
+            System.out.println("ERROR 1: Your order was not registered");
+    }
     
     // a method which will allow me to print messages faster
     public static void Print(String p)

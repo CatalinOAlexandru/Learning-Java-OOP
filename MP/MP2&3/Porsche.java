@@ -2,7 +2,7 @@
 Mini Project
 */
 
-public class Google extends Technology
+public class Porsche extends Cars
 {
     /* The values in super are in these order
     Value = ;
@@ -11,8 +11,8 @@ public class Google extends Technology
     24High = ;
     24Low = ;
     */
-   public Google()
+   public Porsche()
     {
-        super(1007.71, 1187.56, 1480000, 1063.93, 1004.70);
+        super(70.34, 94.40, 139597, 70.90, 69.38);
     }   
 }
