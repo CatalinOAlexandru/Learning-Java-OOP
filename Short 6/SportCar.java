@@ -6,7 +6,7 @@ public class SportCar extends Vehicle
         super(horsepower,0.5,weight);
         topspeed = tspeed;
     }
-    public double getTopspeed()
+    public double getTopspeedCar()
     {
         return topspeed;
     }

@@ -21,10 +21,10 @@ public class Vehicle
     {
         return weight;
     }
-    
+
     public double acceleration()
     {
-        System.out.println("Acceleration in Vehicle method");
+        //System.out.println("Acceleration in Vehicle method");
         double result = (100/horsepower)*aerodynamics*weight/100;
         return result;
     }

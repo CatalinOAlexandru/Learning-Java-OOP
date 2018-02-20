@@ -11,7 +11,10 @@ public class GUI extends JFrame implements ActionListener
     JTextField weighttext;
     JTextField speedtext;
     
-    JTextField displaycons;
+    JTextField displayCons;
+    JTextField displayInfo;
+    JTextField displayAcc;
+    JTextField displayCarry;
     
     JButton b1;
     JButton b2;
@@ -21,6 +24,9 @@ public class GUI extends JFrame implements ActionListener
     JLabel speedlab;
     
     JLabel consumption;
+    JLabel information;
+    JLabel acceleration;
+    JLabel carry;
     
     public GUI()
     {
@@ -30,84 +36,121 @@ public class GUI extends JFrame implements ActionListener
     
     public void window()
     {
-        frame = new JFrame("Exercise 6");
+        frame = new JFrame("OOP - Short 6");
         frame.setVisible(true);
-        frame.setSize(800,400);
+        frame.setSize(430,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+
         
         panel = new JPanel();
-        panel.setLayout(new GridLayout(3,4));
+        panel.setLayout(new GridLayout(11,2));
         
-        hptext = new JTextField(10);
-        aerotext = new JTextField(10);
-        weighttext = new JTextField(10);
-        speedtext = new JTextField(10);
-        displaycons = new JTextField("0",10);
-
-        b1 = new JButton("Create new Vehicle");
-        b2 = new JButton("Create new Van");
+        
         
         hplab = new JLabel("Horsepower");
-        aerolab = new JLabel("Aerodynamics");
-        weightlab = new JLabel("Weight");
-        speedlab = new JLabel("Top Speed");
-        consumption = new JLabel("Consumpotion: ");
-        
         panel.add(hplab);
-        panel.add(aerolab);
-        panel.add(weightlab);
-        panel.add(speedlab);
-        
+        hptext = new JTextField(10);
         panel.add(hptext);
+        
+        aerolab = new JLabel("Aerodynamics");
+        panel.add(aerolab);
+        aerotext = new JTextField(10);
         panel.add(aerotext);
+        
+        weightlab = new JLabel("Weight");
+        panel.add(weightlab);
+        weighttext = new JTextField(10);
         panel.add(weighttext);
+        
+        speedlab = new JLabel("Top Speed");
+        panel.add(speedlab);
+        speedtext = new JTextField(10);
         panel.add(speedtext);
         
+        panel.add(Box.createVerticalStrut(10));
+        panel.add(Box.createVerticalStrut(10));
+
+        displayCons = new JTextField("",10);
+        consumption = new JLabel("Consumpotion");        
+        panel.add(consumption);
+        panel.add(displayCons);
+        
+        displayAcc = new JTextField("",10);
+        acceleration = new JLabel("Acceleration");        
+        panel.add(acceleration);
+        panel.add(displayAcc);
+        
+        displayCarry = new JTextField("",10);
+        carry = new JLabel("Carry Weight");        
+        panel.add(carry);
+        panel.add(displayCarry);
+        
+        panel.add(Box.createVerticalStrut(10));
+        panel.add(Box.createVerticalStrut(10));
+        
+        b1 = new JButton("New Sport Car");
+        b2 = new JButton("New Van");
         panel.add(b1);
         panel.add(b2);
         
-        panel.add(consumption);
-        panel.add(displaycons);
+        displayInfo = new JTextField("",10);
+        information = new JLabel("Information");        
+        panel.add(information);
+        panel.add(displayInfo);
         
-        
-        
-        b1.addActionListener(new ActionListener(){
+        b1.addActionListener(new ActionListener()
+        {
             @Override
-            public void actionPerformed(ActionEvent e){
-                String input;
-                input = hptext.getText();
-                
-                displaycons.setText(input + "SportCar object has been created");
+            public void actionPerformed(ActionEvent e)
+            {
+                SportCar scar1 = new SportCar(200,220,1500);
 
+                displayInfo.setText(" A SportCar object has been created");
+                
+                hptext.setText(String.valueOf(scar1.getHorsepower()));
+                aerotext.setText(String.valueOf(scar1.getAerodynamics()));
+                weighttext.setText(String.valueOf(scar1.getWeight()));
+                speedtext.setText(String.valueOf(scar1.getTopspeedCar()));
+                
+                double carConsumption1=(1000+(scar1.getWeight()/5))*(scar1.getTopspeedCar()/100)*(scar1.getAerodynamics()*scar1.getHorsepower())/10000;
+                String result = String.format("%.2f", carConsumption1);
+                displayCons.setText(result);
+                displayAcc.setText(String.valueOf(scar1.acceleration()));
+                displayCarry.setText("Not Available");
             }
-        });
+        });   
+        
+        b2.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent e)
+            {
+                Van van1 = new Van(100, 3500, 160.4, 100);
+                
+                displayInfo.setText(" A Van object has been created");
+
+                hptext.setText(String.valueOf(van1.getHorsepower()));
+                aerotext.setText(String.valueOf(van1.getAerodynamics()));
+                weighttext.setText(String.valueOf(van1.getWeight()));
+                speedtext.setText(String.valueOf(van1.getTopspeedVan()));
+                
+                double vanConsumption1=(1000+(van1.getWeight()/5))*(van1.getTopspeedVan()/100)*(van1.getAerodynamics()*van1.getHorsepower())/10000;
+                String result = String.format("%.2f", vanConsumption1);
+                displayCons.setText(result);
+                displayAcc.setText(String.valueOf(van1.acceleration()));
+                displayCarry.setText(String.valueOf(van1.getCarryweight()));
+            }
+        });  
         
         frame.add(panel);
-
     }
     
     public void actionPerformed(ActionEvent e)
     {
-        String input;
-        input = hptext.getText();
-        
-        JFrame frame2 = new JFrame("Button clicked");
-        frame2.setVisible(true);
-        frame2.setSize(200,200);
-        
-        JLabel lab = new JLabel("You clicked me");
-        JPanel p = new JPanel();
-        
-        
-        
-        
-        frame2.add(p);
-        p.add(lab);
-        
+        // Only to allow the actionPerformer above to work
     }
     
-    public static void main(String[] args)
+    public static void main(String[] START)
     {
         new GUI();
     }

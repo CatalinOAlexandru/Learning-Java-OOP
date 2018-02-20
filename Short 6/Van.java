@@ -1,12 +1,12 @@
-
 public class Van extends Vehicle
 {
     protected double carryweight;
-    
-    public Van(double horsepower, double weight, double cweight)
+    protected double topspeed;
+    public Van(double horsepower, double weight, double cweight, double speed)
     {
         super(horsepower,0.9,weight);
         carryweight = cweight;
+        topspeed = speed;
     }
     
     public double getCarryweight()
@@ -16,8 +16,13 @@ public class Van extends Vehicle
     
     public double acceleration()
     {
-        System.out.println("Acceleration in Van class");
+        //System.out.println("Acceleration in Van class");
         double result = (100/getHorsepower())*(getAerodynamics()/2)*getWeight()/100;
         return result;
+    }
+    
+    public double getTopspeedVan()
+    {
+        return topspeed;
     }
 }
