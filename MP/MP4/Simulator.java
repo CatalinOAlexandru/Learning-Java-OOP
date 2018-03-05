@@ -6,7 +6,19 @@ public class Simulator
         Print("\nWelcome to the Stock Market");
         
         String name = InputString("What is your name?");
-        double money = InputDouble("How much money (USD) do you have?");
+        double money;
+        while(true)
+        {   
+            try
+            {
+                money = InputDouble("How much money (USD) do you have?");
+                break;
+            }
+            catch(Exception e)
+            {
+                Print("ERROR: Wrong Value. Please input a sum of money.");
+            }
+        }
         Portofolio user1 = new Portofolio(name, money);
         Print("Your account is fully setup!");
         
@@ -42,7 +54,6 @@ public class Simulator
                 System.out.println("You have entered the wrong input, let's try that again.");
             }
         }
-        
     }
     
     public static void Crypto(Portofolio user1)
@@ -51,7 +62,7 @@ public class Simulator
        Market Coin1;
        while(true)
        {
-           ans = InputString("In which Crypto-Currency do you want to invest in? Bitcoin | Litecoin | Ethereum");
+           ans = InputString("In which Crypto-Currency do you want to invest in? Bitcoin(BTC) | Litecoin(LTC) | Ethereum(ETH)");
            if(ans.equalsIgnoreCase("bitcoin") || ans.equalsIgnoreCase("btc"))
            {
                Coin1 = new Bitcoin();
@@ -77,13 +88,27 @@ public class Simulator
            }
        }
                
-       Print("Statistics:");
+       Print("Statistics at this moment:");
        System.out.println("Current Value: "+Coin1.getValue());
        System.out.println("Highest Value recorded: "+Coin1.getHighestValue());
        System.out.println("Highest Value in the last 24 hours: "+Coin1.getM24High());
        System.out.println("Lowest Value in the last 24 hours: "+Coin1.getM24Low());
        
-       int SharesToBuy = InputInt("\nHow many "+ans+" coins do you want to buy?");
+       // Marketing Stage 1
+       
+       int SharesToBuy;
+       while(true)
+       {
+           try
+           {
+               SharesToBuy = InputInt("\nHow many "+ans+" coins do you want to buy?");
+               break;
+           }
+           catch(Exception e)
+           {
+               Print("ERROR: Wrong value. ");
+           }
+       }
        Double newCapital = Coin1.buy(SharesToBuy, user1.getUserCapital(), ans);
        if(ans.equalsIgnoreCase("Bitcoin"))
             user1.setBitcoin(SharesToBuy);
@@ -92,7 +117,14 @@ public class Simulator
        else if(ans.equalsIgnoreCase("Ethereum"))
             user1.setEthereum(SharesToBuy);
        else
-            System.out.println("ERROR 1: Your order was not registered");
+            System.out.println("ERROR: Wrong Value. Please input a number of coins.");
+       
+       // Marketing Stage 2
+       String ansContinue;
+       while(!ansContinue.equalsIgnoreCase("no"))
+       {
+           ansContinue = InputString("Do you want to do any other transactions?");
+       }
        
     }
     
@@ -133,6 +165,8 @@ public class Simulator
        System.out.println("Highest Value recorded: "+car1.getHighestValue());
        System.out.println("Highest Value in the last 24 hours: "+car1.getM24High());
        System.out.println("Lowest Value in the last 24 hours: "+car1.getM24Low());
+       
+       // Marketing Stage 1
        
        int SharesToBuy = InputInt("\nHow many "+ans+" shares do you want to buy?");
        Double newCapital = car1.buy(SharesToBuy, user1.getUserCapital(), ans);
@@ -183,6 +217,8 @@ public class Simulator
        System.out.println("Highest Value recorded: "+tech1.getHighestValue());
        System.out.println("Highest Value in the last 24 hours: "+tech1.getM24High());
        System.out.println("Lowest Value in the last 24 hours: "+tech1.getM24Low());
+       
+       // Marketing Stage 1
        
        int SharesToBuy = InputInt("\nHow many "+ans+" shares do you want to buy?");
        Double newCapital = tech1.buy(SharesToBuy, user1.getUserCapital(), ans);
