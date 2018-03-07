@@ -63,23 +63,27 @@ public class Market
         return capital;
     }
     
-    public double sell(double Amount, double capital, String marketName){ //under construction
+    public double sell(double Amount, double capital, String marketName, Double SharesOwned){ //under construction
         Double sellMarket = Amount * getValue();
         String ans;
-        ans = InputString("Are you sure you want to sell " +Amount+ " units of " +marketName+ " for " +sellMarket+" USD? Write YES to continue.");
-        if(ans.equalsIgnoreCase("yes"))
+
+        if((SharesOwned - Amount) < 0)
         {
-            System.out.print("We are processing a transaction worth: " + sellMarket);
-            capital = capital + sellMarket;
-           
-            System.out.println("\n\nYou now own " + Amount + " which are worth " + sellMarket + " USD");
-            System.out.println("Your new capital is: " + capital);
+            System.out.println("Sorry, but you dont have enough Coins/Shares to procede with this transaction");
+            return -9999.01; //used in simulator.java as a confirmation that the transaction failed
         }
-        else
-        {
-            System.out.println("\nWe cancelled your transaction. You were not charged.");
+        else {
+            ans = InputString("Are you sure you want to sell " + Amount + " units of " + marketName + " for " + sellMarket + " USD? Write YES to continue.");
+            if (ans.equalsIgnoreCase("yes")) {
+                System.out.print("We are processing a transaction worth: " + sellMarket);
+                capital = capital + sellMarket;
+
+                System.out.println("Your new capital is: " + capital);
+            } else {
+                System.out.println("\nWe cancelled your transaction. You were not charged.");
+            }
+            return capital;
         }
-        return capital;
     }
     
     public static String InputString(String s)

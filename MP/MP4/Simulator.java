@@ -1,6 +1,5 @@
 import java.util.*; //Allows me to get input from the user
 
-//import sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader;
 public class Simulator
 {
     public static void main(String[] START)
@@ -138,32 +137,41 @@ public class Simulator
         }
         Double newCapital;
         if(ans.equals("Bitcoin")) {
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setBitcoin(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setBitcoin(user1.getBitcoin() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Litecoin")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setLitecoin(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setLitecoin(user1.getLitecoin() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Ethereum")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setEthereum(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setEthereum(user1.getEthereum() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Porsche")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setPorsche(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setPorsche(user1.getPorsche() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Wolkswagen")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setWolkswagen(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setWolkswagen(user1.getVolkswagen() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Audi")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setAudi(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setAudi(user1.getAudi() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Apple")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setApple(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setApple(user1.getApple() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Google")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setGoogle(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setGoogle(user1.getGoogle() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else if(ans.equals("Samsung")){
-            newCapital = share.sell(SharesToBuy, user1.getUserCapital(), ans);
-            user1.setSamsung(SharesToBuy);}
+            newCapital = share.buy(SharesToBuy, user1.getUserCapital(), ans);
+            user1.setSamsung(user1.getSamsung() + SharesToBuy);
+            user1.setUserCapital(newCapital);}
         else
             System.out.println("There was an Error. The value was not saved into your account.");
     }
@@ -185,32 +193,59 @@ public class Simulator
         }
         Double newCapital;
         if(ans.equals("Bitcoin")) {
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setBitcoin(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getBitcoin());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setBitcoin(user1.getBitcoin() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Litecoin")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setLitecoin(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getLitecoin());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setLitecoin(user1.getLitecoin() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Ethereum")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setEthereum(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getEthereum());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setEthereum(user1.getEthereum() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Porsche")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setPorsche(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getPorsche());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setPorsche(user1.getPorsche() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Wolkswagen")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setWolkswagen(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getVolkswagen());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setWolkswagen(user1.getVolkswagen() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Audi")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setAudi(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getAudi());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setAudi(user1.getAudi() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Apple")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setApple(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getApple());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setApple(user1.getApple() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Google")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setGoogle(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getGoogle());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setGoogle(user1.getGoogle() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else if(ans.equals("Samsung")){
-            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans);
-            user1.setSamsung(SharesToSell);}
+            newCapital = share.sell(SharesToSell, user1.getUserCapital(), ans, user1.getSamsung());
+            if(newCapital == -9999.01) {return;}
+            else{
+            user1.setSamsung(user1.getSamsung() - SharesToSell);
+            user1.setUserCapital(newCapital);}}
         else
             System.out.println("There was an Error. The value was not saved into your account.");
     }
@@ -219,6 +254,7 @@ public class Simulator
     {
         Print("\nAccount registered on the name of " + user1.getUserName());
         Print("Owns the following:");
+        Print("Money: " + user1.getUserCapital());
         Print("Bitcoin: " + user1.getBitcoin());
         Print("Litecoin: " + user1.getLitecoin());
         Print("Ethereum: " + user1.getEthereum());
@@ -236,7 +272,7 @@ public class Simulator
         String action;
         while(true)
         {
-            action = InputString("What do you want to do? Buy/Sell/Statistics/Portofolio/Exit");
+            action = InputString("What do you want to do? Buy/Sell/Portofolio/Exit");
             if(action.equalsIgnoreCase("buy"))
             {
                 buyShares(user1, ans, share);
