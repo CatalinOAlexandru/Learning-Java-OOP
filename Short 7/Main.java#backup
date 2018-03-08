@@ -1,7 +1,12 @@
 import java.io.*;
 import java.util.Scanner;
 import java.util.ArrayList;
-
+/**
+ * Write a description of class Main here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
 public class Main
 {
     private static ArrayList all = new ArrayList<Info>();
@@ -65,10 +70,15 @@ public class Main
               city = scanner2.next();
               pop = Integer.parseInt(scanner2.next());
               con = scanner2.next();
-          }          
+          }
+        
+          //System.out.println(city + " " + pop + " " + con);
+          
           Info info = new Info(city, pop, con);
           all.add(info);
+
         }
-      inputFile.close();     
+      inputFile.close();
+      
     }
 }

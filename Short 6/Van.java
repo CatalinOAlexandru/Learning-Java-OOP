@@ -2,11 +2,11 @@ public class Van extends Vehicle
 {
     protected double carryweight;
     protected double topspeed;
-    public Van(double horsepower, double weight, double cweight, double speed)
+    public Van(double horsepower, double weight, double cweight)
     {
         super(horsepower,0.9,weight);
         carryweight = cweight;
-        topspeed = speed;
+        //topspeed = speed;
     }
     
     public double getCarryweight()

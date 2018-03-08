@@ -75,6 +75,7 @@ public class Portofolio
     {
         Audi = amount;
     }
+
     public String getUserName()
     {
         return userName;

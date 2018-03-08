@@ -1,4 +1,10 @@
 
+/**
+ * Write a description of class Info here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
 public class Info
 {
     // instance variables - replace the example below with your own
@@ -16,6 +22,13 @@ public class Info
         this.population = population;
         this.country = country;
     }
+
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
     
     public String getCapital()
     {
