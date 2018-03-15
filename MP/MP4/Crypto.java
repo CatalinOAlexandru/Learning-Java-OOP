@@ -2,8 +2,6 @@
 Mini Project
 */
 
-import java.util.*; // it imports the entire java util library and makes it available to use
-
 public class Crypto extends Market
 {
     public Crypto(double value, double HighestValue, double Volume, double M24High, double M24Low)

@@ -9,11 +9,11 @@ public class StartTemplate
   	// Program starting point
     public static void main (String[] param)
     {
-    	/
+
     	System.exit(0);
     }   // END Main
 
-    /
+
 
     // a method which will allow me to print messages faster
     public static void Print(String p)
