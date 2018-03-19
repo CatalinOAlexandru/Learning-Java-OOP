@@ -221,13 +221,15 @@
             else
                 terminal.appendText(getTime() + "There was an Error. The value was not saved into your account.");
 
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
+            operationSelected = "";
         }
         else
         { terminal.appendText(getTime() + "ERROR 01: There was an Error in buying method.\n");}
-        amount = 0;
-        totalAmount.setText(String.valueOf(amount));
-        amountPressed = false;
-        operationSelected = "";
+
+
     }
 
     public void sellButtonClicked()
@@ -299,13 +301,15 @@
             else
                 terminal.appendText(getTime() + "There was an Error. The value was not saved into your account.\n");
 
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
+            operationSelected = "";
         }
         else
         { terminal.appendText(getTime() + "ERROR 02: There was an Error in selling method.\n");}
-        amount = 0;
-        totalAmount.setText(String.valueOf(amount));
-        amountPressed = false;
-        operationSelected = "";
+
+
     }
 
     public void statisticsButtonClicked()
@@ -344,7 +348,7 @@
     public void amount1ButtonClicked()
     {
         if (operationSelected == "")
-        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.");}
+        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.\n");}
         else {
             if(amountPressed == false) {
                 terminal.appendText(getTime() + "You selected to " + operationSelected + " 1 coin/share of " + ans + ".\n");
@@ -363,7 +367,7 @@
     public void amount2ButtonClicked()
     {
         if (operationSelected == "")
-        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.");}
+        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.\n");}
         else {
             if(amountPressed == false) {
                 terminal.appendText(getTime() + "You selected to " + operationSelected + " 2 coin/share of " + ans + ".\n");
@@ -382,7 +386,7 @@
     public void amount5ButtonClicked()
     {
         if (operationSelected == "")
-        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.");}
+        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.\n");}
         else {
             if(amountPressed == false) {
                 terminal.appendText(getTime() + "You selected to " + operationSelected + " 5 coin/share of " + ans + ".\n");
@@ -401,7 +405,7 @@
     public void amount10ButtonClicked()
     {
         if (operationSelected == "")
-        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.");}
+        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.\n");}
         else {
             if(amountPressed == false) {
                 terminal.appendText(getTime() + "You selected to " + operationSelected + " 10 coin/share of " + ans + ".\n");
@@ -420,7 +424,7 @@
     public void amount25ButtonClicked()
     {
         if (operationSelected == "")
-        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.");}
+        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.\n");}
         else {
             if(amountPressed == false) {
                 terminal.appendText(getTime() + "You selected to " + operationSelected + " 25 coin/share of " + ans + ".\n");
@@ -439,7 +443,7 @@
     public void amount100ButtonClicked()
     {
         if (operationSelected == "")
-        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.");}
+        {terminal.appendText(getTime() + "Please make sure you press the Buy/Sell button before selecting an amount.\n");}
         else {
             if(amountPressed == false) {
                 terminal.appendText(getTime() + "You selected to " + operationSelected + " 100 coin/share of " + ans + ".\n");
@@ -475,5 +479,13 @@
         }
         else
             terminal.appendText(getTime() + "Make sure you set-up your account before you try to see the portofolio.\n");
+    }
+
+    public void resetButtonClicked() {
+        amount = 0;
+        totalAmount.setText(String.valueOf(amount));
+        amountPressed = false;
+        operationSelected = "";
+        terminal.appendText(getTime() + "You cancelled the operation.\n");
     }
 }
