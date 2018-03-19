@@ -16,12 +16,17 @@ public class SimulatorGUI extends Application
 
 	}
 
+	static  Scene sceneWindow = null;
+
 	@Override
 	public void start(Stage primaryStage) throws Exception
 	{
 		Parent root = FXMLLoader.load(getClass().getResource("GUI.fxml"));
 		primaryStage.setTitle("Mini-Project");
-		primaryStage.setScene(new Scene(root, 644, 400));
+
+		sceneWindow = new Scene(root, 644, 400);
+
+		primaryStage.setScene(SimulatorGUI.sceneWindow);
 		primaryStage.show();
 	}
 

@@ -1,8 +1,13 @@
 package sample;
 
-import java.util.*; //Allows me to get input from the user
+import java.util.*;
+import java.text.*;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 
-public class Market
+public class Market extends Controller
 {
     protected double Value;
     protected double HighestValue;
@@ -40,49 +45,61 @@ public class Market
     }
     
     public double buy(double Amount, double capital, String marketName){ //under construction
+
+        TextArea terminal = (TextArea) SimulatorGUI.sceneWindow.lookup("#terminal");
+
         Double buyMarket = Amount * getValue();
         String ans;
-        ans = InputString("Are you sure you want to buy " +Amount+ " units of " +marketName+ " for " +buyMarket+" USD? Write YES to continue.");
+        ans = "yes";
         if(ans.equalsIgnoreCase("yes"))
         {
-            System.out.print("We are processing a transaction worth: " + buyMarket);
+            terminal.appendText(getTime() + "We are processing a transaction worth: " + buyMarket + " USD\n");
             capital = capital - buyMarket;
             if(capital < 0)
             {
                 capital = capital + buyMarket;
-                System.out.println("\nSorry, but you dont have enoght money to buy " + Amount + " coin(s).");
+                terminal.appendText(getTime() + "Sorry, but you dont have enoght money to buy " + Amount + " coin(s).\n");
             }
             else
             {
-                System.out.println("\n\nYou now own " + Amount + " which are worth " + buyMarket + " USD");
-                System.out.println("Your new capital is: " + capital);
+                terminal.appendText(getTime() + "You now own " + Amount + " Coins/Shares which are worth " + buyMarket + " USD\n");
+                terminal.appendText(getTime() + "Your new capital is: " + capital + " USD\n");
             }
         }
         else
         {
-            System.out.println("\nWe cancelled your transaction. You were not charged.");
+            terminal.appendText(getTime() + "We cancelled your transaction. You were not charged.\n");
         }
         return capital;
     }
-    
+
+    public static String getTime()
+    {
+        Date dNow = new Date( );
+        SimpleDateFormat ft = new SimpleDateFormat ("hh:mm:ss");
+        return ("[" + ft.format(dNow)+ "] ");
+    }
+
     public double sell(double Amount, double capital, String marketName, Double SharesOwned){ //under construction
+
+        TextArea terminal = (TextArea) SimulatorGUI.sceneWindow.lookup("#terminal");
         Double sellMarket = Amount * getValue();
         String ans;
 
         if((SharesOwned - Amount) < 0)
         {
-            System.out.println("Sorry, but you dont have enough Coins/Shares to procede with this transaction");
+            terminal.appendText(getTime() + "Sorry, but you don't have enough Coins/Shares to proceed with this transaction\n");
             return -9999.01; //used in simulator.java as a confirmation that the transaction failed
         }
         else {
-            ans = InputString("Are you sure you want to sell " + Amount + " units of " + marketName + " for " + sellMarket + " USD? Write YES to continue.");
+            ans = "yes";
             if (ans.equalsIgnoreCase("yes")) {
-                System.out.print("We are processing a transaction worth: " + sellMarket);
+                terminal.appendText(getTime() + "We are processing a transaction worth: " + sellMarket + " USD.\n");
                 capital = capital + sellMarket;
 
-                System.out.println("Your new capital is: " + capital);
+                terminal.appendText(getTime() + "Your new capital is: " + capital + " USD.\n");
             } else {
-                System.out.println("\nWe cancelled your transaction. You were not charged.");
+                terminal.appendText(getTime() + "We cancelled your transaction. You were not charged.\n");
             }
             return capital;
         }

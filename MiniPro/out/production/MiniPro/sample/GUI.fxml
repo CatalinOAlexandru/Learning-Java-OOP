@@ -60,8 +60,13 @@
                         <Region HBox.hgrow="ALWAYS" />
                         <Button mnemonicParsing="false" onAction="#setupButtonClicked" prefWidth="64.0" text="Set Up" textFill="#2e00ff">
                            <HBox.margin>
-                              <Insets right="10.0" />
+                              <Insets />
                            </HBox.margin></Button>
+                        <Button mnemonicParsing="false" onAction="#portofolioButtonClicked" text="Portofolio">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Button>
                      </children>
                      <VBox.margin>
                         <Insets bottom="8.0" left="8.0" right="8.0" />
@@ -159,7 +164,7 @@
                   <Insets left="5.0" />
                </VBox.margin>
             </HBox>
-            <TextField fx:id="otherAmount" prefHeight="26.0" prefWidth="72.0" promptText="Other">
+            <TextField fx:id="totalAmount" editable="false" focusTraversable="false" prefHeight="26.0" prefWidth="72.0" promptText="Total">
                <VBox.margin>
                   <Insets left="1.0" />
                </VBox.margin></TextField>
@@ -195,9 +200,9 @@
                   <Insets left="5.0" />
                </VBox.margin>
             </Button>
-            <Button layoutX="10.0" layoutY="36.0" mnemonicParsing="false" onAction="#exitButtonClicked" prefHeight="31.0" prefWidth="50.0" text="Exit">
+            <Button layoutX="10.0" layoutY="36.0" mnemonicParsing="false" onAction="#saveButtonClicked" prefHeight="31.0" prefWidth="59.0" text="Save">
                <VBox.margin>
-                  <Insets left="19.0" />
+                  <Insets left="14.0" />
                </VBox.margin>
             </Button>
          </children>
