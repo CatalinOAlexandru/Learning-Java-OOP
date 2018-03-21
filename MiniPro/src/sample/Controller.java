@@ -7,6 +7,7 @@
  import javafx.scene.control.TextArea;
  import javafx.scene.control.TextField;
  import sample.Market;
+ import java.io.*;
 
  public class Controller
 {
@@ -17,28 +18,53 @@
         return ("[" + ft.format(dNow)+ "] ");
     }
 
+    public static String getTimeDate()
+    {
+        Date dNow = new Date( );
+        SimpleDateFormat ft = new SimpleDateFormat ("hh.mm.ss"+"_"+"dd-MM-yyyy");
+        return (ft.format(dNow));
+    }
+
+    public double getValue()
+    {
+        Double value = 0.0;
+        if (ans.equals("Bitcoin") || ans.equals("Litecoin") || ans.equals("Ethereum")) {
+
+            value = Coin1.getM24Low();
+        } else if (ans.equals("Apple") || ans.equals("Google") || ans.equals("Samsung")) {
+            value =  tech1.getM24Low();
+        } else if (ans.equals("Audi") || ans.equals("Porsche") || ans.equals("Volkswagen")) {
+            value = car1.getM24Low();
+        } else
+            terminal.appendText(getTime() + "ERROR 05: Can't get value.\n");
+        return value;
+    }
+
     protected @FXML TextArea terminal;
     protected @FXML TextField userName;
     protected @FXML TextField userMoney;
     protected @FXML TextField totalAmount;
+
     protected static boolean accountSetUp = false;
     protected static boolean marketSelected = false;
-    protected static String ans = "";
-    protected static int amount = 0;
-    protected static String operationSelected = "";
     protected static Portofolio user1;
     protected static Market Coin1;
     protected static Market car1;
     protected static Market tech1;
+
+    protected static String ans = "";
+    protected static int amount = 0;
+    protected static String operationSelected = "";
     private boolean isAccountSetup = false;
     private boolean confirmButtonPressed = false;
     private boolean amountPressed = false;
+    private String name ="";
 
 
     public void setupButtonClicked()
     {
         if(isAccountSetup == false) {
-            String name = userName.getText();
+            name = userName.getText();
             Double money = 0.0;
             try {
                 money = Double.parseDouble(userMoney.getText());
@@ -69,6 +95,10 @@
             ans = "Bitcoin";
             terminal.appendText(getTime() + "Bitcoin market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -81,6 +111,10 @@
             ans = "Ethereum";
             terminal.appendText(getTime() + "Ethereum market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -93,6 +127,10 @@
             ans = "Litecoin";
             terminal.appendText(getTime() + "Litecoin market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -105,10 +143,12 @@
             ans = "Apple";
             terminal.appendText(getTime() + "Apple market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
-
-
 
     public void samsungButtonClicked()
     {
@@ -119,6 +159,10 @@
             ans = "Samsung";
             terminal.appendText(getTime() + "Samsung market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -131,6 +175,10 @@
             ans = "Google";
             terminal.appendText(getTime() + "Google market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -143,6 +191,10 @@
             ans = "Audi";
             terminal.appendText(getTime() + "Audi market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -155,6 +207,10 @@
             ans = "Porsche";
             terminal.appendText(getTime() + "Porsche market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -167,6 +223,10 @@
             ans = "Volkswagen";
             terminal.appendText(getTime() + "Volkswagen market selected.\n");
             marketSelected = true;
+            operationSelected = "";
+            amount = 0;
+            totalAmount.setText(String.valueOf(amount));
+            amountPressed = false;
         }
     }
 
@@ -340,9 +400,43 @@
             terminal.appendText(getTime() + "Make sure you select a Market before you try to see the statistics.\n");
     }
 
-    public void saveButtonClicked()
+    public String getValuesOfTerminal(){
+        return terminal.getText();
+    }
+
+    public void printInTerminal() { terminal.appendText(getTime() + "The Application was closed.\n");}
+
+    public void saveButtonClicked() throws IOException
     {
-        System.out.println("Clicked!");
+        if(isAccountSetup == true) {
+            String fileName = name +"_"+getTimeDate();
+
+            try (Writer writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Accounts/"+fileName+".txt"), "utf-8"))) {
+                writer.write("Account registered on the name of " + user1.getUserName() + "\r\n");
+                writer.write("Owns the following:\r\n");
+                writer.write("Money: " + user1.getUserCapital() + " USD\r\n");
+                writer.write("Bitcoin: " + user1.getBitcoin() + "\r\n");
+                writer.write("Litecoin: " + user1.getLitecoin() + "\r\n");
+                writer.write("Ethereum: " + user1.getEthereum() + "\r\n");
+                writer.write("Apple: " + user1.getApple() + "\r\n");
+                writer.write("Google: " + user1.getGoogle() + "\r\n");
+                writer.write("Samsung: " + user1.getSamsung() + "\r\n");
+                writer.write("Porsche: " + user1.getPorsche() + "\r\n");
+                writer.write("Volkswagen: " + user1.getVolkswagen() + "\r\n");
+                writer.write("Audi: " + user1.getAudi() + "\r\n");
+                writer.write("\r\n");
+                writer.close();
+
+                terminal.appendText(getTime() + "The account was saved.\n");
+            }catch(Exception e){
+                terminal.appendText(getTime() + "ERROR 03: The account was not saved.\n");
+                System.out.println(e.getMessage());
+            }
+
+
+        }
+        else
+            terminal.appendText(getTime() + "Make sure the account is fully set-up before you try to save it.\n");
     }
 
     public void amount1ButtonClicked()
@@ -352,7 +446,7 @@
         else {
             if(amountPressed == false) {
                 terminal.appendText(getTime() + "You selected to " + operationSelected + " 1 coin/share of " + ans + ".\n");
-                terminal.appendText(getTime() + "Press the " + operationSelected + " button to confirm the transaction.\n");
+                terminal.appendText(getTime() + "Press the " + operationSelected + " button to confirm the transaction. [PAY: "+ (1*getValue()) +"]\n");
                 amount = amount + 1;
                 totalAmount.setText(String.valueOf(amount));
                 amountPressed = true;

@@ -1,0 +1,13 @@
+Account registered on the name of Edik
+Owns the following:
+Money: 20000.0 USD
+Bitcoin: 0.0
+Litecoin: 0.0
+Ethereum: 0.0
+Apple: 0.0
+Google: 0.0
+Samsung: 0.0
+Porsche: 0.0
+Volkswagen: 0.0
+Audi: 0.0
+
