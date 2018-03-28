@@ -1,0 +1,100 @@
+[08:56:49] Your account is fully setup!
+[08:56:49] You can start trading
+[08:58:39] Make sure you select a Market before you try to see the statistics.
+[08:58:42] 
+[08:58:42] Account registered on the name of Carl
+[08:58:42] Owns the following:
+[08:58:42] Money: 20000.0 USD
+[08:58:42] Bitcoin: 0.0
+[08:58:42] Ethereum: 0.0
+[08:58:42] Litecoin: 0.0
+[08:58:42] Apple: 0.0
+[08:58:42] Google: 0.0
+[08:58:42] Samsung: 0.0
+[08:58:42] Audi: 0.0
+[08:58:42] Porsche: 0.0
+[08:58:42] Volkswagen: 0.0
+[08:58:42] 
+[08:58:53] Volkswagen market selected.
+[08:58:54] You selected to buy Volkswagen Coins/Shares. Please select the amount.
+[08:59:02] You selected to buy 2 coin/share of Volkswagen.
+[08:59:02] Press the buy button to confirm the transaction.
+[08:59:05] We are processing a transaction worth: 332.0 USD
+[08:59:05] You now own 2.0 Coins/Shares which are worth 332.0 USD
+[08:59:05] Your new capital is: 19668.0 USD
+[08:59:08] Volkswagen market selected.
+[08:59:09] You selected to sell Volkswagen Coins/Shares. Please select the amount.
+[08:59:11] You selected to sell 2 coin/share of Volkswagen.
+[08:59:11] Press the sell button to confirm the transaction.
+[08:59:13] We are processing a transaction worth: 332.0 USD.
+[08:59:13] Your new capital is: 20000.0 USD.
+[09:07:41] 
+[09:07:41] Account registered on the name of Carl
+[09:07:41] Owns the following:
+[09:07:41] Money: 20000.0 USD
+[09:07:41] Bitcoin: 0.0
+[09:07:41] Ethereum: 0.0
+[09:07:41] Litecoin: 0.0
+[09:07:41] Apple: 0.0
+[09:07:41] Google: 0.0
+[09:07:41] Samsung: 0.0
+[09:07:41] Audi: 0.0
+[09:07:41] Porsche: 0.0
+[09:07:41] Volkswagen: 0.0
+[09:07:41] 
+[09:07:54] Make sure you select a Market before you try to see the statistics.
+[09:07:56] Bitcoin market selected.
+[09:07:57] Bitcoin's statistics at this moment:
+[09:07:57] Current Value: 8009.22
+[09:07:57] Highest Value recorded: 20105.76
+[09:07:57] Highest Value in the last 24 hours: 9045.01
+[09:07:57] Lowest Value in the last 24 hours: 9622.32
+[09:07:59] Ethereum market selected.
+[09:08:01] Ethereum's statistics at this moment:
+[09:08:01] Current Value: 810.03
+[09:08:01] Highest Value recorded: 1337.22
+[09:08:01] Highest Value in the last 24 hours: 880.34
+[09:08:01] Lowest Value in the last 24 hours: 760.67
+[09:08:03] Litecoin market selected.
+[09:08:04] Litecoin's statistics at this moment:
+[09:08:04] Current Value: 144.75
+[09:08:04] Highest Value recorded: 330.24
+[09:08:04] Highest Value in the last 24 hours: 180.22
+[09:08:04] Lowest Value in the last 24 hours: 130.02
+[09:08:05] Apple market selected.
+[09:08:06] Apple's statistics at this moment:
+[09:08:06] Current Value: 155.15
+[09:08:06] Highest Value recorded: 178.08
+[09:08:06] Highest Value in the last 24 hours: 161.0
+[09:08:06] Lowest Value in the last 24 hours: 155.03
+[09:08:08] Google market selected.
+[09:08:09] Google's statistics at this moment:
+[09:08:09] Current Value: 1007.71
+[09:08:09] Highest Value recorded: 1187.56
+[09:08:09] Highest Value in the last 24 hours: 1063.93
+[09:08:09] Lowest Value in the last 24 hours: 1004.7
+[09:08:12] Samsung market selected.
+[09:08:13] Samsung's statistics at this moment:
+[09:08:13] Current Value: 1036.5
+[09:08:13] Highest Value recorded: 1274.5
+[09:08:13] Highest Value in the last 24 hours: 1036.0
+[09:08:13] Lowest Value in the last 24 hours: 1025.0
+[09:08:15] Audi market selected.
+[09:08:16] Audi's statistics at this moment:
+[09:08:16] Current Value: 772.0
+[09:08:16] Highest Value recorded: 821.95
+[09:08:16] Highest Value in the last 24 hours: 790.0
+[09:08:16] Lowest Value in the last 24 hours: 760.0
+[09:08:19] Porsche market selected.
+[09:08:20] Porsche's statistics at this moment:
+[09:08:20] Current Value: 70.34
+[09:08:20] Highest Value recorded: 94.4
+[09:08:20] Highest Value in the last 24 hours: 70.9
+[09:08:20] Lowest Value in the last 24 hours: 69.38
+[09:08:25] Volkswagen market selected.
+[09:08:27] Volkswagen's statistics at this moment:
+[09:08:27] Current Value: 166.0
+[09:08:27] Highest Value recorded: 243.22
+[09:08:27] Highest Value in the last 24 hours: 167.99
+[09:08:27] Lowest Value in the last 24 hours: 164.3
+[09:09:22] The Application was closed.

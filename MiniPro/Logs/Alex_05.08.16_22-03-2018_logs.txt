@@ -1,0 +1,41 @@
+[05:07:27] Your account is fully setup!
+[05:07:27] You can start trading
+[05:07:30] Ethereum market selected.
+[05:07:32] Ethereum's statistics at this moment:
+[05:07:32] Current Value: 810.03
+[05:07:32] Highest Value recorded: 1337.22
+[05:07:32] Highest Value in the last 24 hours: 880.34
+[05:07:32] Lowest Value in the last 24 hours: 760.67
+[05:07:33] You selected to buy Ethereum Coins/Shares. Please select the amount.
+[05:07:35] You selected to buy 2 coin/share of Ethereum.
+[05:07:35] Press the buy button to confirm the transaction of 1620.06 USD.
+[05:07:38] We are processing a transaction worth: 1620.06 USD
+[05:07:38] You now own 2.0 Coins/Shares which are worth 1620.06 USD
+[05:07:38] Your new capital is: 18379.94 USD
+[05:07:46] 
+[05:07:46] Account registered on the name of Alex
+[05:07:46] Owns the following:
+[05:07:46] Money: 18379.94 USD
+[05:07:46] Bitcoin: 0.0
+[05:07:46] Ethereum: 2.0
+[05:07:46] Litecoin: 0.0
+[05:07:46] Apple: 0.0
+[05:07:46] Google: 0.0
+[05:07:46] Samsung: 0.0
+[05:07:46] Audi: 0.0
+[05:07:46] Porsche: 0.0
+[05:07:46] Volkswagen: 0.0
+[05:07:46] 
+[05:07:53] Make sure you select a Market before you try to make any transactions.
+[05:07:55] Ethereum market selected.
+[05:07:56] You selected to sell Ethereum Coins/Shares. Please select the amount.
+[05:07:59] You selected to sell 2 coin/share of Ethereum.
+[05:07:59] Press the sell button to confirm the transaction of 1620.06 USD.
+[05:08:02] We are processing a transaction worth: 1620.06 USD.
+[05:08:02] Your new capital is: 20000.0 USD.
+[05:08:04] Apple market selected.
+[05:08:05] You selected to sell Apple Coins/Shares. Please select the amount.
+[05:08:06] You selected to sell 2 coin/share of Apple.
+[05:08:06] Press the sell button to confirm the transaction of 310.3 USD.
+[05:08:11] Sorry, but you don't have enough Coins/Shares to proceed with this transaction
+[05:08:16] The Application was closed.

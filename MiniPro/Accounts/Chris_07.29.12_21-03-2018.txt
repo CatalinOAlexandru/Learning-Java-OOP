@@ -1,0 +1,13 @@
+Account registered on the name of Chris
+Owns the following:
+Money: 8972.720000000001 USD
+Bitcoin: 0.0
+Litecoin: 0.0
+Ethereum: 0.0
+Apple: 0.0
+Google: 0.0
+Samsung: 1.0
+Porsche: 0.0
+Volkswagen: 0.0
+Audi: 0.0
+

@@ -1,0 +1,4 @@
+setupButton Clicked
+googleButton Clicked
+statisticsButton Clicked
+statisticsButton Clicked

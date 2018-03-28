@@ -1,0 +1,14 @@
+[09:09:44] Your account is fully setup!
+[09:09:44] You can start trading
+[09:09:45] Google market selected.
+[09:09:46] Google's statistics at this moment:
+[09:09:46] Current Value: 1007.71
+[09:09:46] Highest Value recorded: 1187.56
+[09:09:46] Highest Value in the last 24 hours: 1063.93
+[09:09:46] Lowest Value in the last 24 hours: 1004.7
+[09:09:48] Google's statistics at this moment:
+[09:09:48] Current Value: 1007.71
+[09:09:48] Highest Value recorded: 1187.56
+[09:09:48] Highest Value in the last 24 hours: 1063.93
+[09:09:48] Lowest Value in the last 24 hours: 1004.7
+[09:09:57] The Application was closed.

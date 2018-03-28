@@ -1,0 +1,6 @@
+setupButton Clicked
+appleButton Clicked
+statisticsButton Clicked
+statisticsButton Clicked
+samsungButton Clicked
+statisticsButton Clicked

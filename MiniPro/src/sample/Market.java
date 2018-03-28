@@ -2,10 +2,7 @@ package sample;
 
 import java.util.*;
 import java.text.*;
-import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
 
 public class Market extends Controller
 {
@@ -23,6 +20,7 @@ public class Market extends Controller
         M24High = inM24High;
         M24Low = inM24Low;
     }
+
     public double getValue()
     {
         return Value;
@@ -43,7 +41,14 @@ public class Market extends Controller
     {
         return M24Low;
     }
-    
+
+    public static String getTime()
+    {
+        Date dNow = new Date( );
+        SimpleDateFormat ft = new SimpleDateFormat ("hh:mm:ss");
+        return ("[" + ft.format(dNow)+ "] ");
+    }
+
     public double buy(double Amount, double capital, String marketName){ //under construction
 
         TextArea terminal = (TextArea) SimulatorGUI.sceneWindow.lookup("#terminal");
@@ -57,8 +62,8 @@ public class Market extends Controller
             capital = capital - buyMarket;
             if(capital < 0)
             {
-                capital = capital + buyMarket;
                 terminal.appendText(getTime() + "Sorry, but you dont have enoght money to buy " + Amount + " coin(s).\n");
+                return -9999.01;
             }
             else
             {
@@ -73,14 +78,7 @@ public class Market extends Controller
         return capital;
     }
 
-    public static String getTime()
-    {
-        Date dNow = new Date( );
-        SimpleDateFormat ft = new SimpleDateFormat ("hh:mm:ss");
-        return ("[" + ft.format(dNow)+ "] ");
-    }
-
-    public double sell(double Amount, double capital, String marketName, Double SharesOwned){ //under construction
+    public double sell(double Amount, double capital, String marketName, Double SharesOwned){
 
         TextArea terminal = (TextArea) SimulatorGUI.sceneWindow.lookup("#terminal");
         Double sellMarket = Amount * getValue();
@@ -104,11 +102,5 @@ public class Market extends Controller
             return capital;
         }
     }
-    
-    public static String InputString(String s)
-    {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(s);
-        return scanner.nextLine();
-    } // END Input String
+
 }

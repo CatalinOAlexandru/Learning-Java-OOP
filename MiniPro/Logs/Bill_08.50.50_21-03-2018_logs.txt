@@ -1,0 +1,102 @@
+[08:24:33] Your account is fully setup!
+[08:24:33] You can start trading
+[08:24:36] Bitcoin market selected.
+[08:24:37] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[08:24:38] You selected to buy 2 coin/share of Bitcoin.
+[08:24:38] Press the buy button to confirm the transaction.
+[08:24:40] We are processing a transaction worth: 16018.44 USD
+[08:24:40] You now own 2.0 Coins/Shares which are worth 16018.44 USD
+[08:24:40] Your new capital is: 1.232965956E7 USD
+[08:24:47] Ethereum market selected.
+[08:24:48] You selected to buy Ethereum Coins/Shares. Please select the amount.
+[08:24:49] You selected to buy 2 coin/share of Ethereum.
+[08:24:49] Press the buy button to confirm the transaction.
+[08:24:51] We are processing a transaction worth: 1620.06 USD
+[08:24:51] You now own 2.0 Coins/Shares which are worth 1620.06 USD
+[08:24:51] Your new capital is: 1.23280395E7 USD
+[08:24:55] Litecoin market selected.
+[08:24:56] You selected to buy Litecoin Coins/Shares. Please select the amount.
+[08:24:57] You selected to buy 2 coin/share of Litecoin.
+[08:24:57] Press the buy button to confirm the transaction.
+[08:24:59] We are processing a transaction worth: 289.5 USD
+[08:24:59] You now own 2.0 Coins/Shares which are worth 289.5 USD
+[08:24:59] Your new capital is: 1.232775E7 USD
+[08:25:00] Apple market selected.
+[08:25:01] You selected to buy Apple Coins/Shares. Please select the amount.
+[08:25:02] You selected to buy 2 coin/share of Apple.
+[08:25:02] Press the buy button to confirm the transaction.
+[08:25:04] We are processing a transaction worth: 310.3 USD
+[08:25:04] You now own 2.0 Coins/Shares which are worth 310.3 USD
+[08:25:04] Your new capital is: 1.23274397E7 USD
+[08:25:05] Google market selected.
+[08:25:06] You selected to buy Google Coins/Shares. Please select the amount.
+[08:25:07] You selected to buy 2 coin/share of Google.
+[08:25:07] Press the buy button to confirm the transaction.
+[08:25:08] We are processing a transaction worth: 2015.42 USD
+[08:25:08] You now own 2.0 Coins/Shares which are worth 2015.42 USD
+[08:25:08] Your new capital is: 1.232542428E7 USD
+[08:25:12] Samsung market selected.
+[08:25:13] You selected to buy Samsung Coins/Shares. Please select the amount.
+[08:25:14] You selected to buy 2 coin/share of Samsung.
+[08:25:14] Press the buy button to confirm the transaction.
+[08:25:16] We are processing a transaction worth: 2073.0 USD
+[08:25:16] You now own 2.0 Coins/Shares which are worth 2073.0 USD
+[08:25:16] Your new capital is: 1.232335128E7 USD
+[08:25:19] Audi market selected.
+[08:25:21] You selected to buy Audi Coins/Shares. Please select the amount.
+[08:25:22] You selected to buy 2 coin/share of Audi.
+[08:25:22] Press the buy button to confirm the transaction.
+[08:25:23] We are processing a transaction worth: 1544.0 USD
+[08:25:23] You now own 2.0 Coins/Shares which are worth 1544.0 USD
+[08:25:23] Your new capital is: 1.232180728E7 USD
+[08:25:25] Porsche market selected.
+[08:25:26] You selected to buy Porsche Coins/Shares. Please select the amount.
+[08:25:27] You selected to buy 2 coin/share of Porsche.
+[08:25:27] Press the buy button to confirm the transaction.
+[08:25:28] We are processing a transaction worth: 140.68 USD
+[08:25:28] You now own 2.0 Coins/Shares which are worth 140.68 USD
+[08:25:28] Your new capital is: 1.23216666E7 USD
+[08:25:30] Volkswagen market selected.
+[08:25:31] You selected to buy Volkswagen Coins/Shares. Please select the amount.
+[08:25:33] You selected to buy 2 coin/share of Volkswagen.
+[08:25:33] Press the buy button to confirm the transaction.
+[08:25:34] We are processing a transaction worth: 332.0 USD
+[08:25:34] You now own 2.0 Coins/Shares which are worth 332.0 USD
+[08:25:34] Your new capital is: 1.23213346E7 USD
+[08:25:36] 
+[08:25:36] Account registered on the name of Bill
+[08:25:36] Owns the following:
+[08:25:36] Money: 1.23213346E7 USD
+[08:25:36] Bitcoin: 2.0
+[08:25:36] Litecoin: 0.0
+[08:25:36] Ethereum: 0.0
+[08:25:36] Apple: 2.0
+[08:25:36] Google: 2.0
+[08:25:36] Samsung: 2.0
+[08:25:36] Porsche: 2.0
+[08:25:36] Volkswagen: 2.0
+[08:25:36] Audi: 2.0
+[08:25:36] 
+[08:25:40] Ethereum market selected.
+[08:25:42] You selected to buy Ethereum Coins/Shares. Please select the amount.
+[08:25:43] You selected to buy 2 coin/share of Ethereum.
+[08:25:43] Press the buy button to confirm the transaction.
+[08:25:44] We are processing a transaction worth: 1620.06 USD
+[08:25:44] You now own 2.0 Coins/Shares which are worth 1620.06 USD
+[08:25:44] Your new capital is: 1.231971454E7 USD
+[08:25:46] 
+[08:25:46] Account registered on the name of Bill
+[08:25:46] Owns the following:
+[08:25:46] Money: 1.231971454E7 USD
+[08:25:46] Bitcoin: 2.0
+[08:25:46] Litecoin: 0.0
+[08:25:46] Ethereum: 0.0
+[08:25:46] Apple: 2.0
+[08:25:46] Google: 2.0
+[08:25:46] Samsung: 2.0
+[08:25:46] Porsche: 2.0
+[08:25:46] Volkswagen: 2.0
+[08:25:46] Audi: 2.0
+[08:25:46] 
+[08:50:49] The account was saved.
+[08:50:50] The Application was closed.

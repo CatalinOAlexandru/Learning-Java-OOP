@@ -1,0 +1,20 @@
+[09:13:26] Your account is fully setup!
+[09:13:26] You can start trading
+[09:13:27] Apple market selected.
+[09:13:28] Apple's statistics at this moment:
+[09:13:28] Current Value: 155.15
+[09:13:28] Highest Value recorded: 178.08
+[09:13:28] Highest Value in the last 24 hours: 161.0
+[09:13:28] Lowest Value in the last 24 hours: 155.03
+[09:13:30] Apple's statistics at this moment:
+[09:13:30] Current Value: 155.15
+[09:13:30] Highest Value recorded: 178.08
+[09:13:30] Highest Value in the last 24 hours: 161.0
+[09:13:30] Lowest Value in the last 24 hours: 155.03
+[09:13:32] Samsung market selected.
+[09:13:33] Samsung's statistics at this moment:
+[09:13:33] Current Value: 1036.5
+[09:13:33] Highest Value recorded: 1274.5
+[09:13:33] Highest Value in the last 24 hours: 1036.0
+[09:13:33] Lowest Value in the last 24 hours: 1025.0
+[09:13:50] The Application was closed.

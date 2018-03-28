@@ -1,0 +1,237 @@
+[08:51:31] Your account is fully setup!
+[08:51:31] You can start trading
+[08:51:32] Bitcoin market selected.
+[08:51:33] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[08:51:34] You selected to buy 2 coin/share of Bitcoin.
+[08:51:34] Press the buy button to confirm the transaction.
+[08:51:36] We are processing a transaction worth: 16018.44 USD
+[08:51:37] You now own 2.0 Coins/Shares which are worth 16018.44 USD
+[08:51:37] Your new capital is: 107437.56 USD
+[08:51:38] Ethereum market selected.
+[08:51:39] You selected to buy Ethereum Coins/Shares. Please select the amount.
+[08:51:40] You selected to buy 2 coin/share of Ethereum.
+[08:51:40] Press the buy button to confirm the transaction.
+[08:51:42] We are processing a transaction worth: 1620.06 USD
+[08:51:42] You now own 2.0 Coins/Shares which are worth 1620.06 USD
+[08:51:42] Your new capital is: 105817.5 USD
+[08:51:43] Litecoin market selected.
+[08:51:45] You selected to buy Litecoin Coins/Shares. Please select the amount.
+[08:51:46] You selected to buy 2 coin/share of Litecoin.
+[08:51:46] Press the buy button to confirm the transaction.
+[08:51:47] We are processing a transaction worth: 289.5 USD
+[08:51:47] You now own 2.0 Coins/Shares which are worth 289.5 USD
+[08:51:47] Your new capital is: 105528.0 USD
+[08:51:48] Apple market selected.
+[08:51:49] You selected to buy Apple Coins/Shares. Please select the amount.
+[08:51:50] You selected to buy 2 coin/share of Apple.
+[08:51:50] Press the buy button to confirm the transaction.
+[08:51:51] We are processing a transaction worth: 310.3 USD
+[08:51:51] You now own 2.0 Coins/Shares which are worth 310.3 USD
+[08:51:51] Your new capital is: 105217.7 USD
+[08:51:52] Google market selected.
+[08:51:53] You selected to buy Google Coins/Shares. Please select the amount.
+[08:51:54] You selected to buy 2 coin/share of Google.
+[08:51:54] Press the buy button to confirm the transaction.
+[08:51:55] We are processing a transaction worth: 2015.42 USD
+[08:51:55] You now own 2.0 Coins/Shares which are worth 2015.42 USD
+[08:51:55] Your new capital is: 103202.28 USD
+[08:52:13] Samsung market selected.
+[08:52:15] You selected to buy Samsung Coins/Shares. Please select the amount.
+[08:52:16] You selected to buy 2 coin/share of Samsung.
+[08:52:16] Press the buy button to confirm the transaction.
+[08:52:17] We are processing a transaction worth: 2073.0 USD
+[08:52:17] You now own 2.0 Coins/Shares which are worth 2073.0 USD
+[08:52:17] Your new capital is: 101129.28 USD
+[08:52:18] Audi market selected.
+[08:52:19] You selected to buy Audi Coins/Shares. Please select the amount.
+[08:52:20] You selected to buy 2 coin/share of Audi.
+[08:52:20] Press the buy button to confirm the transaction.
+[08:52:21] We are processing a transaction worth: 1544.0 USD
+[08:52:21] You now own 2.0 Coins/Shares which are worth 1544.0 USD
+[08:52:21] Your new capital is: 99585.28 USD
+[08:52:22] Porsche market selected.
+[08:52:23] Please make sure you press the Buy/Sell button before selecting an amount.
+[08:52:24] You selected to buy Porsche Coins/Shares. Please select the amount.
+[08:52:25] Volkswagen market selected.
+[08:52:26] Please make sure you press the Buy/Sell button before selecting an amount.
+[08:52:27] You selected to buy Volkswagen Coins/Shares. Please select the amount.
+[08:52:30] 
+[08:52:30] Account registered on the name of Rick
+[08:52:30] Owns the following:
+[08:52:30] Money: 99585.28 USD
+[08:52:30] Bitcoin: 2.0
+[08:52:30] Litecoin: 2.0
+[08:52:30] Ethereum: 2.0
+[08:52:30] Apple: 2.0
+[08:52:30] Google: 2.0
+[08:52:30] Samsung: 2.0
+[08:52:30] Porsche: 0.0
+[08:52:30] Volkswagen: 0.0
+[08:52:30] Audi: 2.0
+[08:52:30] 
+[08:52:36] Volkswagen market selected.
+[08:52:37] You selected to buy Volkswagen Coins/Shares. Please select the amount.
+[08:52:38] You selected to buy 2 coin/share of Volkswagen.
+[08:52:38] Press the buy button to confirm the transaction.
+[08:52:39] We are processing a transaction worth: 332.0 USD
+[08:52:39] You now own 2.0 Coins/Shares which are worth 332.0 USD
+[08:52:39] Your new capital is: 99253.28 USD
+[08:52:41] 
+[08:52:41] Account registered on the name of Rick
+[08:52:41] Owns the following:
+[08:52:41] Money: 99253.28 USD
+[08:52:41] Bitcoin: 2.0
+[08:52:41] Litecoin: 2.0
+[08:52:41] Ethereum: 2.0
+[08:52:41] Apple: 2.0
+[08:52:41] Google: 2.0
+[08:52:41] Samsung: 2.0
+[08:52:41] Porsche: 0.0
+[08:52:41] Volkswagen: 2.0
+[08:52:41] Audi: 2.0
+[08:52:41] 
+[08:52:43] Porsche market selected.
+[08:52:44] You selected to buy Porsche Coins/Shares. Please select the amount.
+[08:52:45] You selected to buy 2 coin/share of Porsche.
+[08:52:45] Press the buy button to confirm the transaction.
+[08:52:46] We are processing a transaction worth: 140.68 USD
+[08:52:46] You now own 2.0 Coins/Shares which are worth 140.68 USD
+[08:52:46] Your new capital is: 99112.6 USD
+[08:52:48] 
+[08:52:48] Account registered on the name of Rick
+[08:52:48] Owns the following:
+[08:52:48] Money: 99112.6 USD
+[08:52:48] Bitcoin: 2.0
+[08:52:48] Litecoin: 2.0
+[08:52:48] Ethereum: 2.0
+[08:52:48] Apple: 2.0
+[08:52:48] Google: 2.0
+[08:52:48] Samsung: 2.0
+[08:52:48] Porsche: 2.0
+[08:52:48] Volkswagen: 2.0
+[08:52:48] Audi: 2.0
+[08:52:48] 
+[08:54:09] Bitcoin market selected.
+[08:54:11] You selected to sell Bitcoin Coins/Shares. Please select the amount.
+[08:54:12] You selected to sell 1 coin/share of Bitcoin.
+[08:54:12] Press the sell button to confirm the transaction.
+[08:54:13] We are processing a transaction worth: 8009.22 USD.
+[08:54:13] Your new capital is: 107121.82 USD.
+[08:54:15] Ethereum market selected.
+[08:54:16] You selected to sell Ethereum Coins/Shares. Please select the amount.
+[08:54:17] You selected to sell 1 coin/share of Ethereum.
+[08:54:17] Press the sell button to confirm the transaction.
+[08:54:19] We are processing a transaction worth: 810.03 USD.
+[08:54:19] Your new capital is: 107931.85 USD.
+[08:54:21] Litecoin market selected.
+[08:54:22] You selected to sell Litecoin Coins/Shares. Please select the amount.
+[08:54:23] You selected to sell 1 coin/share of Litecoin.
+[08:54:23] Press the sell button to confirm the transaction.
+[08:54:24] We are processing a transaction worth: 144.75 USD.
+[08:54:24] Your new capital is: 108076.6 USD.
+[08:54:28] Apple market selected.
+[08:54:30] You selected to sell Apple Coins/Shares. Please select the amount.
+[08:54:31] You selected to sell 1 coin/share of Apple.
+[08:54:31] Press the sell button to confirm the transaction.
+[08:54:32] We are processing a transaction worth: 155.15 USD.
+[08:54:32] Your new capital is: 108231.75 USD.
+[08:54:38] Google market selected.
+[08:54:39] You selected to sell Google Coins/Shares. Please select the amount.
+[08:54:40] You selected to sell 1 coin/share of Google.
+[08:54:40] Press the sell button to confirm the transaction.
+[08:54:42] We are processing a transaction worth: 1007.71 USD.
+[08:54:42] Your new capital is: 109239.46 USD.
+[08:54:44] Samsung market selected.
+[08:54:45] You selected to sell Samsung Coins/Shares. Please select the amount.
+[08:54:46] You selected to sell 1 coin/share of Samsung.
+[08:54:46] Press the sell button to confirm the transaction.
+[08:54:47] We are processing a transaction worth: 1036.5 USD.
+[08:54:47] Your new capital is: 110275.96 USD.
+[08:54:51] Audi market selected.
+[08:54:52] Please make sure you press the Buy/Sell button before selecting an amount.
+[08:54:53] You selected to sell Audi Coins/Shares. Please select the amount.
+[08:54:56] Porsche market selected.
+[08:54:57] Please make sure you press the Buy/Sell button before selecting an amount.
+[08:54:59] You selected to sell Porsche Coins/Shares. Please select the amount.
+[08:55:09] Volkswagen market selected.
+[08:55:10] You selected to sell Volkswagen Coins/Shares. Please select the amount.
+[08:55:12] You selected to sell 1 coin/share of Volkswagen.
+[08:55:12] Press the sell button to confirm the transaction.
+[08:55:13] ERROR 06: The value was not saved into your account.
+[08:55:18] Volkswagen market selected.
+[08:55:20] Please make sure you press the Buy/Sell button before selecting an amount.
+[08:55:23] Please make sure you press the Buy/Sell button before selecting an amount.
+[08:55:30] You selected to sell Volkswagen Coins/Shares. Please select the amount.
+[08:55:32] You selected to sell 1 coin/share of Volkswagen.
+[08:55:32] Press the sell button to confirm the transaction.
+[08:55:33] ERROR 06: The value was not saved into your account.
+[08:55:35] 
+[08:55:35] Account registered on the name of Rick
+[08:55:35] Owns the following:
+[08:55:35] Money: 110275.96 USD
+[08:55:35] Bitcoin: 1.0
+[08:55:35] Litecoin: 1.0
+[08:55:35] Ethereum: 1.0
+[08:55:35] Apple: 1.0
+[08:55:35] Google: 1.0
+[08:55:35] Samsung: 1.0
+[08:55:35] Porsche: 2.0
+[08:55:35] Volkswagen: 2.0
+[08:55:35] Audi: 2.0
+[08:55:35] 
+[08:55:40] Audi market selected.
+[08:55:42] You selected to sell Audi Coins/Shares. Please select the amount.
+[08:55:43] You selected to sell 1 coin/share of Audi.
+[08:55:43] Press the sell button to confirm the transaction.
+[08:55:44] We are processing a transaction worth: 772.0 USD.
+[08:55:44] Your new capital is: 111047.96 USD.
+[08:55:47] 
+[08:55:47] Account registered on the name of Rick
+[08:55:47] Owns the following:
+[08:55:47] Money: 111047.96 USD
+[08:55:47] Bitcoin: 1.0
+[08:55:47] Litecoin: 1.0
+[08:55:47] Ethereum: 1.0
+[08:55:47] Apple: 1.0
+[08:55:47] Google: 1.0
+[08:55:47] Samsung: 1.0
+[08:55:47] Porsche: 2.0
+[08:55:47] Volkswagen: 2.0
+[08:55:47] Audi: 1.0
+[08:55:47] 
+[08:55:51] Porsche market selected.
+[08:55:53] You selected to sell Porsche Coins/Shares. Please select the amount.
+[08:55:54] You selected to sell 1 coin/share of Porsche.
+[08:55:54] Press the sell button to confirm the transaction.
+[08:55:55] We are processing a transaction worth: 70.34 USD.
+[08:55:55] Your new capital is: 111118.3 USD.
+[08:55:57] 
+[08:55:57] Account registered on the name of Rick
+[08:55:57] Owns the following:
+[08:55:57] Money: 111118.3 USD
+[08:55:57] Bitcoin: 1.0
+[08:55:57] Litecoin: 1.0
+[08:55:57] Ethereum: 1.0
+[08:55:57] Apple: 1.0
+[08:55:57] Google: 1.0
+[08:55:57] Samsung: 1.0
+[08:55:57] Porsche: 1.0
+[08:55:57] Volkswagen: 2.0
+[08:55:57] Audi: 1.0
+[08:55:57] 
+[08:56:22] 
+[08:56:22] Account registered on the name of Rick
+[08:56:22] Owns the following:
+[08:56:22] Money: 111118.3 USD
+[08:56:22] Bitcoin: 1.0
+[08:56:22] Litecoin: 1.0
+[08:56:22] Ethereum: 1.0
+[08:56:22] Apple: 1.0
+[08:56:22] Google: 1.0
+[08:56:22] Samsung: 1.0
+[08:56:22] Porsche: 1.0
+[08:56:22] Volkswagen: 2.0
+[08:56:22] Audi: 1.0
+[08:56:22] 
+[08:56:27] The account was saved.
+[08:56:31] The Application was closed.

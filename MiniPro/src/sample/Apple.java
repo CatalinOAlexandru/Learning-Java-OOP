@@ -11,8 +11,8 @@ public class Apple extends Technology
     24High = ;
     24Low = ;
     */
-   public Apple()
+   public Apple(double value, double highestvalue, double volume, double high24, double low24)
     {
-        super(155.15, 178.08, 30810000,161.00, 155.03);
+        super(value, highestvalue, volume, high24, low24);
     }   
 }

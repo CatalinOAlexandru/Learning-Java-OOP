@@ -1,0 +1,4 @@
+[12:27:43] Your account is fully setup!
+[12:27:43] You can start trading
+[12:27:44] Apple market selected.
+[12:32:27] The Application was closed.

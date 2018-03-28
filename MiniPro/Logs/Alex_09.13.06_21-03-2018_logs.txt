@@ -1,0 +1,23 @@
+[09:12:30] You have to set-up your account first
+[09:12:37] Your account is fully setup!
+[09:12:37] You can start trading
+[09:12:38] Make sure you select a Market before you try to see the statistics.
+[09:12:40] Google market selected.
+[09:12:40] Google's statistics at this moment:
+[09:12:40] Current Value: 1007.71
+[09:12:40] Highest Value recorded: 1187.56
+[09:12:40] Highest Value in the last 24 hours: 1063.93
+[09:12:40] Lowest Value in the last 24 hours: 1004.7
+[09:12:54] Audi market selected.
+[09:12:55] Audi's statistics at this moment:
+[09:12:55] Current Value: 772.0
+[09:12:55] Highest Value recorded: 821.95
+[09:12:55] Highest Value in the last 24 hours: 790.0
+[09:12:55] Lowest Value in the last 24 hours: 760.0
+[09:12:55] [09:13:02] Audi's statistics at this moment:
+[09:13:02] Current Value: 772.0
+[09:13:02] Highest Value recorded: 821.95
+[09:13:02] Highest Value in the last 24 hours: 790.0
+[09:13:02] Lowest Value in the last 24 hours: 760.0
+[09:13:02] [09:13:04] Samsung market selected.
+[09:13:06] The Application was closed.

@@ -1,0 +1,14 @@
+setupButton Clicked
+bitcoinButton Clicked
+buyButton Clicked
+amount2Button Clicked
+buyButton Clicked
+buyButton Clicked
+amount2Button Clicked
+buyButton Clicked
+portofolioButton Clicked
+buyButton Clicked
+amount2Button Clicked
+buyButton Clicked
+portofolioButton Clicked
+saveButton Clicked

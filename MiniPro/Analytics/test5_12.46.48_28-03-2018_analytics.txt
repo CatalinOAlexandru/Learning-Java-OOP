@@ -1,0 +1,3 @@
+setupButton Clicked
+appleButton Clicked
+statisticsButton Clicked

@@ -46,11 +46,11 @@ public class Portofolio
     }
     public void setLitecoin(double amount)
     {
-        Bitcoin = amount;
+        Litecoin = amount;
     }
     public void setEthereum(double amount)
     {
-        Bitcoin = amount;
+        Ethereum = amount;
     }
     public void setApple(double amount)
     {

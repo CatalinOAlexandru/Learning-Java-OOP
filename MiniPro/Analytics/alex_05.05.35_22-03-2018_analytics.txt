@@ -1,0 +1,4 @@
+setupButton Clicked
+bitcoinButton Clicked
+buyButton Clicked
+amount1Button Clicked

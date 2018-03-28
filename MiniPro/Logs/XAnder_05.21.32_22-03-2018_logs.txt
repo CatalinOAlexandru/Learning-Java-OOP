@@ -1,0 +1,67 @@
+[05:18:09] Your account is fully setup!
+[05:18:09] You can start trading
+[05:18:16] 
+[05:18:16] Account registered on the name of XAnder
+[05:18:16] Owns the following:
+[05:18:16] Money: 1222445.0 USD
+[05:18:16] Bitcoin: 0.0
+[05:18:16] Ethereum: 0.0
+[05:18:16] Litecoin: 0.0
+[05:18:16] Apple: 0.0
+[05:18:16] Google: 0.0
+[05:18:16] Samsung: 0.0
+[05:18:16] Audi: 0.0
+[05:18:16] Porsche: 0.0
+[05:18:16] Volkswagen: 0.0
+[05:18:16] 
+[05:18:29] Make sure you select a Market before you try to make any transactions.
+[05:18:32] Please make sure you press the Buy/Sell button before selecting an amount.
+[05:18:35] Bitcoin market selected.
+[05:18:46] Bitcoin's statistics at this moment:
+[05:18:46] Current Value: 8009.22
+[05:18:46] Highest Value recorded: 20105.76
+[05:18:46] Highest Value in the last 24 hours: 9045.01
+[05:18:46] Lowest Value in the last 24 hours: 9622.32
+[05:20:23] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[05:20:25] You selected to buy 2 coin/share of Bitcoin.
+[05:20:25] Press the buy button to confirm the transaction of 16018.44 USD.
+[05:20:34] We are processing a transaction worth: 16018.44 USD
+[05:20:34] You now own 2.0 Coins/Shares which are worth 16018.44 USD
+[05:20:34] Your new capital is: 1206426.56 USD
+[05:20:38] 
+[05:20:38] Account registered on the name of XAnder
+[05:20:38] Owns the following:
+[05:20:38] Money: 1206426.56 USD
+[05:20:38] Bitcoin: 2.0
+[05:20:38] Ethereum: 0.0
+[05:20:38] Litecoin: 0.0
+[05:20:38] Apple: 0.0
+[05:20:38] Google: 0.0
+[05:20:38] Samsung: 0.0
+[05:20:38] Audi: 0.0
+[05:20:38] Porsche: 0.0
+[05:20:38] Volkswagen: 0.0
+[05:20:38] 
+[05:20:45] Make sure you select a Market before you try to make any transactions.
+[05:20:47] Please make sure you press the Buy/Sell button before selecting an amount.
+[05:20:52] Bitcoin market selected.
+[05:20:53] You selected to sell Bitcoin Coins/Shares. Please select the amount.
+[05:20:54] You selected to sell 5 coin/share of Bitcoin.
+[05:20:54] Press the sell button to confirm the transaction of 40046.1 USD.
+[05:20:59] Sorry, but you don't have enough Coins/Shares to proceed with this transaction
+[05:21:04] 
+[05:21:04] Account registered on the name of XAnder
+[05:21:04] Owns the following:
+[05:21:04] Money: 1206426.56 USD
+[05:21:04] Bitcoin: 2.0
+[05:21:04] Ethereum: 0.0
+[05:21:04] Litecoin: 0.0
+[05:21:04] Apple: 0.0
+[05:21:04] Google: 0.0
+[05:21:04] Samsung: 0.0
+[05:21:04] Audi: 0.0
+[05:21:04] Porsche: 0.0
+[05:21:04] Volkswagen: 0.0
+[05:21:04] 
+[05:21:12] The account was saved.
+[05:21:32] The Application was closed.

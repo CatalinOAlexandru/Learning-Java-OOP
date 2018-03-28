@@ -1,0 +1,89 @@
+[08:21:42] Your account is fully setup!
+[08:21:42] You can start trading
+[08:21:43] Bitcoin market selected.
+[08:21:44] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[08:21:46] You selected to buy 2 coin/share of Bitcoin.
+[08:21:46] Press the buy button to confirm the transaction.
+[08:21:48] We are processing a transaction worth: 32036.88 USD
+[08:21:48] Sorry, but you dont have enoght money to buy 4.0 coin(s).
+[08:21:51] 
+[08:21:51] Account registered on the name of Joe
+[08:21:51] Owns the following:
+[08:21:51] Money: 20000.0 USD
+[08:21:51] Bitcoin: 0.0
+[08:21:51] Litecoin: 0.0
+[08:21:51] Ethereum: 0.0
+[08:21:51] Apple: 0.0
+[08:21:51] Google: 0.0
+[08:21:51] Samsung: 0.0
+[08:21:51] Porsche: 0.0
+[08:21:51] Volkswagen: 0.0
+[08:21:51] Audi: 0.0
+[08:21:51] 
+[08:21:54] Make sure you select a Market before you try to make any transactions.
+[08:21:56] Bitcoin market selected.
+[08:21:57] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[08:21:58] You selected to buy 2 coin/share of Bitcoin.
+[08:21:58] Press the buy button to confirm the transaction.
+[08:22:00] ERROR 02: There was an Error in selling method.
+[08:22:06] ERROR 02: There was an Error in selling method.
+[08:22:08] We are processing a transaction worth: 16018.44 USD
+[08:22:08] You now own 2.0 Coins/Shares which are worth 16018.44 USD
+[08:22:08] Your new capital is: 3981.5599999999995 USD
+[08:22:15] 
+[08:22:15] Account registered on the name of Joe
+[08:22:15] Owns the following:
+[08:22:15] Money: 3981.5599999999995 USD
+[08:22:15] Bitcoin: 2.0
+[08:22:15] Litecoin: 0.0
+[08:22:15] Ethereum: 0.0
+[08:22:15] Apple: 0.0
+[08:22:15] Google: 0.0
+[08:22:15] Samsung: 0.0
+[08:22:15] Porsche: 0.0
+[08:22:15] Volkswagen: 0.0
+[08:22:15] Audi: 0.0
+[08:22:15] 
+[08:22:20] Make sure you select a Market before you try to see the statistics.
+[08:22:22] Samsung market selected.
+[08:22:23] Samsung's statistics at this moment:
+[08:22:23] Current Value: 1036.5
+[08:22:23] Highest Value recorded: 1274.5
+[08:22:23] Highest Value in the last 24 hours: 1036.0
+[08:22:23] Lowest Value in the last 24 hours: 1025.0
+[08:22:32] Audi market selected.
+[08:22:33] You selected to buy Audi Coins/Shares. Please select the amount.
+[08:22:34] You selected to buy 2 coin/share of Audi.
+[08:22:34] Press the buy button to confirm the transaction.
+[08:22:36] We are processing a transaction worth: 1544.0 USD
+[08:22:36] You now own 2.0 Coins/Shares which are worth 1544.0 USD
+[08:22:36] Your new capital is: 2437.5599999999995 USD
+[08:22:39] Volkswagen market selected.
+[08:22:40] Volkswagen's statistics at this moment:
+[08:22:40] Current Value: 166.0
+[08:22:40] Highest Value recorded: 243.22
+[08:22:40] Highest Value in the last 24 hours: 167.99
+[08:22:40] Lowest Value in the last 24 hours: 164.3
+[08:22:43] 
+[08:22:43] Account registered on the name of Joe
+[08:22:43] Owns the following:
+[08:22:43] Money: 2437.5599999999995 USD
+[08:22:43] Bitcoin: 2.0
+[08:22:43] Litecoin: 0.0
+[08:22:43] Ethereum: 0.0
+[08:22:43] Apple: 0.0
+[08:22:43] Google: 0.0
+[08:22:43] Samsung: 0.0
+[08:22:43] Porsche: 0.0
+[08:22:43] Volkswagen: 0.0
+[08:22:43] Audi: 2.0
+[08:22:43] 
+[08:22:46] You selected to buy Volkswagen Coins/Shares. Please select the amount.
+[08:22:48] You selected to buy 10 coin/share of Volkswagen.
+[08:22:48] Press the buy button to confirm the transaction.
+[08:22:50] ERROR 07: There was an Error. The value was not saved into your account.[08:23:00] Volkswagen market selected.
+[08:23:02] You selected to buy Volkswagen Coins/Shares. Please select the amount.
+[08:23:03] You selected to buy 10 coin/share of Volkswagen.
+[08:23:03] Press the buy button to confirm the transaction.
+[08:23:04] ERROR 07: There was an Error. The value was not saved into your account.[08:24:14] The account was saved.
+[08:24:15] The Application was closed.

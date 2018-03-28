@@ -1,0 +1,49 @@
+[07:54:50] Your account is fully setup!
+[07:54:50] You can start trading
+[07:54:52] Bitcoin market selected.
+[07:54:53] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[07:54:55] You selected to buy 2 coin/share of Bitcoin.
+[07:54:55] Press the buy button to confirm the transaction.
+[07:55:03] We are processing a transaction worth: 16018.44 USD
+[07:55:03] You now own 2.0 Coins/Shares which are worth 16018.44 USD
+[07:55:03] Your new capital is: 3981.5599999999995 USD
+[07:55:10] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[07:55:18] You selected to buy 2 coin/share of Bitcoin.
+[07:55:18] Press the buy button to confirm the transaction.
+[07:55:20] We are processing a transaction worth: 16018.44 USD
+[07:55:20] Sorry, but you dont have enoght money to buy 2.0 coin(s).
+[07:55:45] 
+[07:55:45] Account registered on the name of Monster
+[07:55:45] Owns the following:
+[07:55:45] Money: 3981.5599999999995 USD
+[07:55:45] Bitcoin: 4.0
+[07:55:45] Litecoin: 0.0
+[07:55:45] Ethereum: 0.0
+[07:55:45] Apple: 0.0
+[07:55:45] Google: 0.0
+[07:55:45] Samsung: 0.0
+[07:55:45] Porsche: 0.0
+[07:55:45] Volkswagen: 0.0
+[07:55:45] Audi: 0.0
+[07:55:45] 
+[07:56:39] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[07:56:42] You selected to buy 2 coin/share of Bitcoin.
+[07:56:42] Press the buy button to confirm the transaction.
+[07:56:44] We are processing a transaction worth: 16018.44 USD
+[07:56:44] Sorry, but you dont have enoght money to buy 2.0 coin(s).
+[07:56:47] 
+[07:56:47] Account registered on the name of Monster
+[07:56:47] Owns the following:
+[07:56:47] Money: 3981.5599999999995 USD
+[07:56:47] Bitcoin: 6.0
+[07:56:47] Litecoin: 0.0
+[07:56:47] Ethereum: 0.0
+[07:56:47] Apple: 0.0
+[07:56:47] Google: 0.0
+[07:56:47] Samsung: 0.0
+[07:56:47] Porsche: 0.0
+[07:56:47] Volkswagen: 0.0
+[07:56:47] Audi: 0.0
+[07:56:47] 
+[08:24:10] The account was saved.
+[08:24:11] The Application was closed.

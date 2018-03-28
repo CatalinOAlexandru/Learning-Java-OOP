@@ -1,0 +1,13 @@
+Account registered on the name of Bill
+Owns the following:
+Money: 1.231971454E7 USD
+Bitcoin: 2.0
+Litecoin: 0.0
+Ethereum: 0.0
+Apple: 2.0
+Google: 2.0
+Samsung: 2.0
+Porsche: 2.0
+Volkswagen: 2.0
+Audi: 2.0
+

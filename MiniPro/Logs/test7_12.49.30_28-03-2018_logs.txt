@@ -1,0 +1,8 @@
+[12:49:21] Your account is fully setup!
+[12:49:21] You can start trading
+[12:49:21] Apple market selected.
+[12:49:23] Current Price: 168.6USD 
+[12:49:24] Highest value recorded: 183.5USD 
+[12:49:24] Highest value in the last 24 hours: 175.15USD 
+[12:49:25] Lowest value in the last 24 hours: 165.03USD 
+[12:49:30] The Application was closed.

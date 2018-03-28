@@ -1,0 +1,13 @@
+Account registered on the name of Rick
+Owns the following:
+Money: 111118.3 USD
+Bitcoin: 1.0
+Litecoin: 1.0
+Ethereum: 1.0
+Apple: 1.0
+Google: 1.0
+Samsung: 1.0
+Porsche: 1.0
+Volkswagen: 2.0
+Audi: 1.0
+

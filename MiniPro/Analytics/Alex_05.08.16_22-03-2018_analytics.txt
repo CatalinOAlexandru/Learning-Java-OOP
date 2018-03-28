@@ -1,0 +1,16 @@
+setupButton Clicked
+ethereumButton Clicked
+statisticsButton Clicked
+buyButton Clicked
+amount2Button Clicked
+buyButton Clicked
+portofolioButton Clicked
+sellButton Clicked
+ethereumButton Clicked
+sellButton Clicked
+amount2Button Clicked
+sellButton Clicked
+appleButton Clicked
+sellButton Clicked
+amount2Button Clicked
+sellButton Clicked

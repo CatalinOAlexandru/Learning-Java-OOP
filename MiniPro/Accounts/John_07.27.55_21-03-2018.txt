@@ -1,0 +1,13 @@
+Account registered on the name of John
+Owns the following:
+Money: 170208.75 USD
+Bitcoin: 100.0
+Litecoin: 0.0
+Ethereum: 0.0
+Apple: 25.0
+Google: 0.0
+Samsung: 25.0
+Porsche: 0.0
+Volkswagen: 0.0
+Audi: 0.0
+

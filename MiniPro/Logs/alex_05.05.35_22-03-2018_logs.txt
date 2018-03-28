@@ -1,0 +1,7 @@
+[05:05:25] Your account is fully setup!
+[05:05:25] You can start trading
+[05:05:26] Bitcoin market selected.
+[05:05:26] You selected to buy Bitcoin Coins/Shares. Please select the amount.
+[05:05:28] You selected to buy 1 coin/share of Bitcoin.
+[05:05:28] Press the buy button to confirm the transaction of 8009.22USD.
+[05:05:35] The Application was closed.
