@@ -36,7 +36,6 @@ public class SimulatorGUI extends Application
     @Override
     public void stop()
     {
-            //System.out.println(c.getValuesOfTerminal());
             c.printInTerminal();
 
             try (Writer writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Logs/"+c.getNameDate()+"logs.txt"), "utf-8"))) {
@@ -51,7 +50,6 @@ public class SimulatorGUI extends Application
                 for(String str: c.getAnalytics()){
                 writer.write(str);
                 }
-                //writer.write(Arrays.toString(c.getAnalytics()));
             }
             catch(Exception e){
                 System.out.println(e.getMessage());

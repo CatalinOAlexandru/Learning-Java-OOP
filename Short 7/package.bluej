@@ -2,8 +2,8 @@
 dependency1.from=Main
 dependency1.to=Info
 dependency1.type=UsesDependency
-editor.fx.0.height=1030
-editor.fx.0.width=960
+editor.fx.0.height=0
+editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 objectbench.height=265
