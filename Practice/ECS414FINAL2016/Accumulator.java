@@ -8,11 +8,12 @@ public class Accumulator {
     }
 
     public int twiceSumA() {
-      int sum = 0;
+      int sum=0;
       for(int i=0; i<A.length; i++)
       {
-          sum = sum + (A[i] * 2);
+          sum = sum + A[i];
       }
+      sum = sum * 2;
       return sum;
     }
     
