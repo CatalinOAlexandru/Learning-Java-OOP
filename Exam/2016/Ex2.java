@@ -3,7 +3,11 @@ public class Ex2 {
 private String studentName;
 private double marks;
 
-    
+    public Ex2(String sName, double courseworkMarks, double examMarks)
+    {
+        studentName = sName;
+        marks = 0.4* courseworkMarks + 0.6* examMarks;
+    }
     
     public String getValues(){
         return ""+studentName+" "+marks;

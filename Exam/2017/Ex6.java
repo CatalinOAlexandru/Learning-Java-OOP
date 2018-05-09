@@ -4,9 +4,19 @@ public class Ex6
 
 
 public static UserAccount lookForFriend(String name,UserAccount user){
+      ArrayList<UserAccount> friends = user.getFriends();
       
+      for(int i=0; i<friends.size(); i++)
+      {
+          UserAccount acc = friends.get(i);
+          if((acc.getName()).equals(name))
+                return acc;
+      }
+      System.out.println("no such friend");
+      return null;
 }
     
+
 public static void main(String[] args){
    ArrayList<UserAccount>  usersList=new ArrayList<UserAccount> ();
    UserAccount user1=new UserAccount("a1","b1","e1");
