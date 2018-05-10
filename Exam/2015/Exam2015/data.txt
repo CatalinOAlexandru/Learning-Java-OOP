@@ -1,0 +1,2 @@
+John Smith 60
+Anna Green 80

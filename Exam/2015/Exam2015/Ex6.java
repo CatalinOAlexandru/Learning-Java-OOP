@@ -15,8 +15,8 @@ public class Ex6
             
             for(int i=0; i<cw.size(); i++)
             {
-                double mark = (cw.get(i).getPercentage() * cw.get(i).getMark()) + (exam.get(i).getPercentage() * exam.get(i).getMark());
-                combined.add(new Assessment(cw.get(i).getStudent(), mark));
+                double grade = (cw.get(i).getPercentage() * cw.get(i).getMark()) + (exam.get(i).getPercentage() * exam.get(i).getMark());
+                combined.add(new Assessment(cw.get(i).getStudent(), grade));
                 
             }
             
