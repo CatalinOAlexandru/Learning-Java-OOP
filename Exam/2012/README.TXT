@@ -316,7 +316,7 @@ However,
   a single space and the string "No such name"
 
 To test your program, use the file "data.txt" (available in your current 
-directory).
+directory).ooo
 
 As an example, if "data.txt" is
     Jules 50 60 40
